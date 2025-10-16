@@ -147,12 +147,56 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/rnn-regularization-zaremba-2014.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights".
+
+Active Task Instance 003: Week 2 — Improving Language Understanding by Generative Pre-Training (Radford et al., 2018)
+Context
+- Syllabus entry: Week 2 — Pre-training Paradigms & Models
+- Key Topics & Labs: Causal Language Modeling (GPT). Masked Language Modeling (BERT). Unsupervised Pre-training and semi-supervised transfer learning. Tokenization (BPE, WordPiece).
+- PDF path: [llm_papers_syllabus/Improving_Language_Understanding_GPT1_Radford_2018.pdf](llm_papers_syllabus/Improving_Language_Understanding_GPT1_Radford_2018.pdf)
+- Output path: summaries/improving-language-understanding-gpt1-radford-2018.md
+- Notes path: work/notes/improving-language-understanding-gpt1-radford-2018.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 2, Paper 1): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: [llm_papers_syllabus/Improving_Language_Understanding_GPT1_Radford_2018.pdf](llm_papers_syllabus/Improving_Language_Understanding_GPT1_Radford_2018.pdf)
+- [x] 3. Prepare context from [course-syllabus.md](course-syllabus.md): extract Key Topics for Week 2.
+- [x] 4. Create notes file: work/notes/improving-language-understanding-gpt1-radford-2018.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using [Prompt.md](Prompt.md); include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Pre-training Paradigms" and causal language modeling explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/improving-language-understanding-gpt1-radford-2018.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" (e.g., Figure 1 input transformations, Figure 2 transfer analysis).
+
+Active Task Instance 004: Week 2 — BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (Devlin et al., 2018)
+Context
+- Syllabus entry: Week 2 — Pre-training Paradigms & Models
+- Key Topics & Labs: Causal Language Modeling (GPT). Masked Language Modeling (BERT). Unsupervised Pre-training and semi-supervised transfer learning. Tokenization (BPE, WordPiece).
+- PDF path: [llm_papers_syllabus/BERT_Bidirectional_Transformers_Devlin_2018.pdf](llm_papers_syllabus/BERT_Bidirectional_Transformers_Devlin_2018.pdf)
+- Output path: summaries/bert-pretraining-devlin-2018.md
+- Notes path: work/notes/bert-pretraining-devlin-2018.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 2, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: [llm_papers_syllabus/BERT_Bidirectional_Transformers_Devlin_2018.pdf](llm_papers_syllabus/BERT_Bidirectional_Transformers_Devlin_2018.pdf)
+- [x] 3. Prepare context from [course-syllabus.md](course-syllabus.md): extract Key Topics for Week 2.
+- [x] 4. Create notes file: work/notes/bert-pretraining-devlin-2018.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using [Prompt.md](Prompt.md); include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Pre-training Paradigms" and masked language modeling explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/bert-pretraining-devlin-2018.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
 - [ ] 12. Optional: add "Figure Insights".
 
 Planned upcoming instances (add as you go)
-- Week 2: GPT-1 (Radford 2018) → summaries/improving-language-understanding-gpt1-radford-2018.md
-- Week 2: BERT (Devlin 2018) → summaries/bert-pretraining-devlin-2018.md
-- Week 3: T5 (Raffel 2019), RoFormer (Su 2021), etc.
+- Week 3: T5 (Raffel 2019) → summaries/t5-unified-text-to-text-raffel-2019.md
+- Week 3: RoFormer (Su 2021) → summaries/roformer-enhanced-transformer-su-2021.md
+- etc.
 - Include Extension tracks after core weeks or interleave as time allows.
 
 Marking tasks complete
