@@ -193,13 +193,250 @@ Tasks
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
 - [ ] 12. Optional: add "Figure Insights".
 
+Active Task Instance 005: Week 3 — Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (Raffel et al., 2019)
+Context
+- Syllabus entry: Week 3 — Context, Embedding, and T5
+- Key Topics & Labs: Positional Encoding Deep Dive (RoPE vs. Absolute). The unified text-to-text paradigm. Lab: Implementing a small GPT-style block and fine-tuning an open-source T5 model on a sequence-to-sequence task.
+- PDF path: [llm_papers_syllabus/T5_Unified_Text_to_Text_Raffel_2019.pdf](llm_papers_syllabus/T5_Unified_Text_to_Text_Raffel_2019.pdf)
+- Output path: summaries/t5-unified-text-to-text-raffel-2019.md
+- Notes path: work/notes/t5-unified-text-to-text-raffel-2019.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 3, Paper 1): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: [llm_papers_syllabus/T5_Unified_Text_to_Text_Raffel_2019.pdf](llm_papers_syllabus/T5_Unified_Text_to_Text_Raffel_2019.pdf)
+- [x] 3. Prepare context from [course-syllabus.md](course-syllabus.md): extract Key Topics for Week 3.
+- [x] 4. Create notes file: work/notes/t5-unified-text-to-text-raffel-2019.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using [Prompt.md](Prompt.md); include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Context, Embedding, and T5" and text-to-text paradigm explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/t5-unified-text-to-text-raffel-2019.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (e.g., Figure 1 text-to-text examples, Figure 2 span corruption).
+
+Active Task Instance 006: Week 3 — RoFormer: Enhanced Transformer with Rotary Position Embedding (Su et al., 2021)
+Context
+- Syllabus entry: Week 3 — Context, Embedding, and T5
+- Key Topics & Labs: Positional Encoding Deep Dive (RoPE vs. Absolute). The unified text-to-text paradigm. Lab: Implementing a small GPT-style block and fine-tuning an open-source T5 model on a sequence-to-sequence task.
+- PDF path: llm_papers_syllabus/RoFormer_Rotary_Position_Embedding_Su_2021.pdf
+- Output path: summaries/roformer-enhanced-transformer-su-2021.md
+- Notes path: work/notes/roformer-enhanced-transformer-su-2021.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 3, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/RoFormer_Rotary_Position_Embedding_Su_2021.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 3.
+- [x] 4. Create notes file: work/notes/roformer-enhanced-transformer-su-2021.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Context, Embedding, and T5" and RoPE vs. Absolute position encodings explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/roformer-enhanced-transformer-su-2021.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 1 rotation illustration, Figure 2 long-term decay).
+
+Active Task Instance 007: Week 4 — Scaling Laws for Neural Language Models (Kaplan et al., 2020)
+Context
+- Syllabus entry: Week 4 — Scaling Laws & Compute Optimization (Phase II)
+- Key Topics & Labs: Empirical scaling of model size, dataset size, and compute budget. The Chinchilla optimal scaling theory. Data and model parallelization concepts (Megatron-LM).
+- PDF path: llm_papers_syllabus/Scaling_Laws_Neural_Language_Models_Kaplan_2020.pdf
+- Output path: summaries/scaling-laws-neural-language-models-kaplan-2020.md
+- Notes path: work/notes/scaling-laws-neural-language-models-kaplan-2020.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 4, Paper 1): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Scaling_Laws_Neural_Language_Models_Kaplan_2020.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 4.
+- [x] 4. Create notes file: work/notes/scaling-laws-neural-language-models-kaplan-2020.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Scaling Laws & Compute Optimization" and empirical scaling explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/scaling-laws-neural-language-models-kaplan-2020.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 1 shows all three scaling laws; Figure 13 shows C_min scaling).
+
+Active Task Instance 008: Week 4 — Training Compute-Optimal Large Language Models (Hoffmann et al., 2022)
+Context
+- Syllabus entry: Week 4 — Scaling Laws & Compute Optimization (Phase II)
+- Key Topics & Labs: Empirical scaling of model size, dataset size, and compute budget. The Chinchilla optimal scaling theory. Data and model parallelization concepts (Megatron-LM).
+- PDF path: llm_papers_syllabus/Training_Compute_Optimal_LLM_Hoffmann_2022.pdf
+- Output path: summaries/training-compute-optimal-llm-hoffmann-2022.md
+- Notes path: work/notes/training-compute-optimal-llm-hoffmann-2022.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 4, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Training_Compute_Optimal_LLM_Hoffmann_2022.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 4.
+- [x] 4. Create notes file: work/notes/training-compute-optimal-llm-hoffmann-2022.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Scaling Laws & Compute Optimization" and Chinchilla theory explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/training-compute-optimal-llm-hoffmann-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 1 shows three approaches overlaid; Figure 3 shows IsoFLOP curves; Table 2 shows scaling coefficients).
+
+Active Task Instance 009: Week 5 — Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (Fedus et al., 2021)
+Context
+- Syllabus entry: Week 5 — Mixture-of-Experts (MoE) Architectures (Phase II)
+- Key Topics & Labs: Theory of sparse activation and conditional computation. Router mechanisms and load balancing. The efficiency trade-offs of MoE. Lab: Implementing a basic MoE layer and comparing its memory usage vs. a dense layer.
+- PDF path: llm_papers_syllabus/Switch_Transformers_MoE_Fedus_2021.pdf
+- Output path: summaries/switch-transformers-moe-fedus-2021.md
+- Notes path: work/notes/switch-transformers-moe-fedus-2021.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 5, Paper 1): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Switch_Transformers_MoE_Fedus_2021.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 5.
+- [x] 4. Create notes file: work/notes/switch-transformers-moe-fedus-2021.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Mixture-of-Experts Architectures" and sparse activation explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/switch-transformers-moe-fedus-2021.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 2 architecture, Figure 3 capacity factor, Figure 5 speedup).
+
+Active Task Instance 010: Week 5 — LLaMA 2: Open Foundation and Fine-Tuned Chat Models (Touvron et al., 2023)
+Context
+- Syllabus entry: Week 5 — Mixture-of-Experts (MoE) Architectures (Phase II)
+- Key Topics & Labs: Theory of sparse activation and conditional computation. Router mechanisms and load balancing. The efficiency trade-offs of MoE. Lab: Implementing a basic MoE layer and comparing its memory usage vs. a dense layer.
+- Note: LLaMA 2 provides context for modern scaling and data curriculum approaches
+- PDF path: llm_papers_syllabus/LLaMA_2_Open_Foundation_Touvron_2023.pdf
+- Output path: summaries/llama-2-open-foundation-touvron-2023.md
+- Notes path: work/notes/llama-2-open-foundation-touvron-2023.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 5, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/LLaMA_2_Open_Foundation_Touvron_2023.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 5.
+- [x] 4. Create notes file: work/notes/llama-2-open-foundation-touvron-2023.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Mixture-of-Experts Architectures" context and modern scaling explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/llama-2-open-foundation-touvron-2023.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 4 RLHF pipeline, Figure 6 reward scaling, Figure 20 distribution shift).
+
+Active Task Instance 011: Week 6 — FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (Dao et al., 2022)
+Context
+- Syllabus entry: Week 6 — Inference Efficiency & Hardware (Phase II)
+- Key Topics & Labs: The quadratic bottleneck in inference. KV Caching. The mechanics of FlashAttention (tiling and fusion). Quantization schemes (8-bit, 4-bit, GPTQ).
+- PDF path: llm_papers_syllabus/FlashAttention_Fast_IO_Aware_Dao_2022.pdf
+- Output path: summaries/flashattention-fast-io-aware-dao-2022.md
+- Notes path: work/notes/flashattention-fast-io-aware-dao-2022.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 6, Paper 1): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/FlashAttention_Fast_IO_Aware_Dao_2022.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 6.
+- [x] 4. Create notes file: work/notes/flashattention-fast-io-aware-dao-2022.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Inference Efficiency & Hardware" and tiling/fusion mechanics explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/flashattention-fast-io-aware-dao-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 1 tiling diagram, Figure 2 HBM access analysis, Figure 3 runtime/memory benchmarks).
+
+Active Task Instance 012: Week 6 — GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers (Frantar et al., 2022)
+Context
+- Syllabus entry: Week 6 — Inference Efficiency & Hardware (Phase II)
+- Key Topics & Labs: The quadratic bottleneck in inference. KV Caching. The mechanics of FlashAttention (tiling and fusion). Quantization schemes (8-bit, 4-bit, GPTQ).
+- PDF path: llm_papers_syllabus/GPTQ_Accurate_Post_Training_Quant_Frantar_2022.pdf
+- Output path: summaries/gptq-accurate-post-training-quant-frantar-2022.md
+- Notes path: work/notes/gptq-accurate-post-training-quant-frantar-2022.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 6, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/GPTQ_Accurate_Post_Training_Quant_Frantar_2022.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 6.
+- [x] 4. Create notes file: work/notes/gptq-accurate-post-training-quant-frantar-2022.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Inference Efficiency & Hardware" and quantization schemes explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed (verified 8 key claims).
+- [x] 10. Save final to summaries/gptq-accurate-post-training-quant-frantar-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 1 shows OPT/BLOOM 4-bit and 3-bit comparison; Figure 2 shows GPTQ block quantization procedure; Algorithm 1 pseudocode).
+Active Task Instance 013: Week 7 — Finetuned Language Models are Zero-Shot Learners (Wei et al., 2021)
+Context
+- Syllabus entry: Week 7 — Instruction Tuning and Generalization (Phase III)
+- Key Topics & Labs: The shift to instruction-following. Task generalization via instruction-tuning (FLAN). Emergent abilities (In-context learning). Multimodality introduction. Evaluation & Benchmarking: Holistic evaluation frameworks and task diversity.
+- PDF path: llm_papers_syllabus/FLAN_Finetuned_Zero_Shot_Wei_2021.pdf
+- Output path: summaries/flan-finetuned-zero-shot-wei-2021.md
+- Notes path: work/notes/flan-finetuned-zero-shot-wei-2021.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 7, Paper 1): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/FLAN_Finetuned_Zero_Shot_Wei_2021.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 7.
+- [x] 4. Create notes file: work/notes/flan-finetuned-zero-shot-wei-2021.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Instruction Tuning and Generalization" and task generalization explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed (verified key claims about 62 datasets, 137B parameters, outperforming GPT-3 on 20/25 datasets, scale dependence at ≥68B, OPTIONS suffix technique, task cluster methodology, and ablation study findings).
+- [x] 10. Save final to summaries/flan-finetuned-zero-shot-wei-2021.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 1 shows instruction tuning overview; Figure 5 compares zero-shot performance across task types; Figure 6 shows task cluster ablation; Figure 7 demonstrates scale dependence).
+
+
+Active Task Instance 014: Week 7 — Emergent Abilities of Large Language Models (Wei et al., 2022)
+Context
+- Syllabus entry: Week 7 — Instruction Tuning and Generalization (Phase III)
+- Key Topics & Labs: The shift to instruction-following. Task generalization via instruction-tuning (FLAN). Emergent abilities (In-context learning). Multimodality introduction. Evaluation & Benchmarking: Holistic evaluation frameworks and task diversity.
+- PDF path: llm_papers_syllabus/Emergent_Abilities_LLM_Wei_2022.pdf
+- Output path: summaries/emergent-abilities-llm-wei-2022.md
+- Notes path: work/notes/emergent-abilities-llm-wei-2022.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 7, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Emergent_Abilities_LLM_Wei_2022.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 7.
+- [x] 4. Create notes file: work/notes/emergent-abilities-llm-wei-2022.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Instruction Tuning and Generalization" and emergent abilities explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed (verified 8 key claims: emergent ability definition, GPT-3 arithmetic thresholds, MMLU emergence scales, WiC benchmark progression, chain-of-thought emergence, instruction following emergence, cross-entropy analysis, and PaLM 62B outperformance).
+- [x] 10. Save final to summaries/emergent-abilities-llm-wei-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 2 shows eight emergent few-shot tasks; Figure 3 shows four augmented prompting strategies; Figure 4 shows MMLU emergence across three metrics; Table 1 lists all emergent abilities and scales).
+Active Task Instance 015: Week 7 — Holistic Evaluation of Language Models (Liang et al., 2022)
+Context
+- Syllabus entry: Week 7 — Instruction Tuning and Generalization (Phase III)
+- Key Topics & Labs: The shift to instruction-following. Task generalization via instruction-tuning (FLAN). Emergent abilities (In-context learning). Multimodality introduction. Evaluation & Benchmarking: Holistic evaluation frameworks and task diversity.
+- PDF path: llm_papers_syllabus/HELM_Holistic_Evaluation_Liang_2022.pdf
+- Output path: summaries/helm-holistic-evaluation-liang-2022.md
+- Notes path: work/notes/helm-holistic-evaluation-liang-2022.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 7, Additional Reading 3): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/HELM_Holistic_Evaluation_Liang_2022.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 7.
+- [x] 4. Create notes file: work/notes/helm-holistic-evaluation-liang-2022.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Instruction Tuning and Generalization" and evaluation frameworks explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed (verified key claims about 17.9% → 96% coverage, 30 models, 87.5% multi-metric coverage, text-davinci-002 dominance, 62% TruthfulQA accuracy, AAE disparities 1.506 vs 2.114 BPB, 50B parameter threshold, prompting sensitivity findings).
+- [x] 10. Save final to summaries/helm-holistic-evaluation-liang-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights" (Figure 2 taxonomy structure, Figure 3 multi-metric approach, Figure 4 standardization before/after, Figure 24-26 inter-metric relationships, Figure 28 accessibility gap, Figure 31 prompting variance, Figure 33 adaptation method sensitivity).
+
+
 Planned upcoming instances (add as you go)
-- Week 3: T5 (Raffel 2019) → summaries/t5-unified-text-to-text-raffel-2019.md
-- Week 3: RoFormer (Su 2021) → summaries/roformer-enhanced-transformer-su-2021.md
-- Week 4: Scaling Laws (Kaplan 2020) → summaries/scaling-laws-neural-language-models-kaplan-2020.md
-- Week 4: Training Compute-Optimal LLMs (Hoffmann 2022) → summaries/training-compute-optimal-llm-hoffmann-2022.md
-- Week 5: Switch Transformers (Fedus 2021) → summaries/switch-transformers-moe-fedus-2021.md
-- Week 5: LLaMA 2 (Touvron 2023) → summaries/llama-2-open-foundation-touvron-2023.md
 - Week 6: FlashAttention (Dao 2022) → summaries/flashattention-fast-io-aware-dao-2022.md
 - Week 6: GPTQ (Frantar 2022) → summaries/gptq-accurate-post-training-quant-frantar-2022.md
 - Week 7: FLAN (Wei 2021) → summaries/flan-finetuned-zero-shot-wei-2021.md
