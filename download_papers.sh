@@ -45,6 +45,31 @@ PAPER_LIST=(
     "Measuring_Mitigating_Bias_Grounded_Language|2005.14167|Bansal_2020"
     "The_Alignment_Problem_Safety|1606.06565|Amodei_2016"
     "Constitutional_AI_Harmlessness_CAI|2212.08073|Bai_2022"
+    # --- Week 7: Evaluation & Benchmarking (Additions) ---
+    "HELM_Holistic_Evaluation|2211.09110|Liang_2022"
+    "BIG_Bench_Beyond_Imitation_Game|2206.04615|Srivastava_2022"
+    # --- Week 9: Factuality & CoT Faithfulness (Additions) ---
+    "TruthfulQA_Measuring_Falsehoods|2109.07958|Lin_2021"
+    "Measuring_Faithfulness_CoT|2307.13702|Lanham_2023"
+    # --- Week 10: Tool Use (Additions) ---
+    "Toolformer_LLMs_Use_Tools|2302.04761|Schick_2023"
+    "Gorilla_LLM_Connected_APIs|2305.15334|Patil_2023"
+    # --- Week 10: Multimodality (Additions) ---
+    "Flamingo_Visual_Language_Model|2204.14198|Alayrac_2022"
+    "LLaVA_Visual_Instruction_Tuning|2304.08485|Liu_2023"
+    "Kosmos_2_Grounding_Multimodal|2306.14824|Peng_2023"
+    # --- Week 11: Infra/Serving/PEFT (Additions) ---
+    "LoRA_Low_Rank_Adaptation|2106.09685|Hu_2021"
+    "vLLM_PagedAttention_Serving|2309.06180|Kwon_2023"
+    "MemGPT_LLMs_Operating_Systems|2310.08560|Wu_2023"
+    # --- Week 12: Beyond Transformers (Additions) ---
+    "Hyena_Hierarchy_Convolutional|2302.10866|Poli_2023"
+    "Jamba_Hybrid_Transformer_Mamba|2403.19887|Lieber_2024"
+    # --- Extension A: Security Defenses (Additions) ---
+    "Red_Teaming_Reduce_Harms|2209.07858|Perez_2022"
+    "Watermark_Large_Language_Models|2301.10226|Kirchenbauer_2023"
+    "Certified_Robustness_Word_Substitutions|2306.11848|Wang_2023"
+    "Poisoning_Instruction_Tuning|2305.00944|Qi_2023"
 )
 
 # Function to download a single paper

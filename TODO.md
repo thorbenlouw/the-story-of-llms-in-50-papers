@@ -196,7 +196,50 @@ Tasks
 Planned upcoming instances (add as you go)
 - Week 3: T5 (Raffel 2019) → summaries/t5-unified-text-to-text-raffel-2019.md
 - Week 3: RoFormer (Su 2021) → summaries/roformer-enhanced-transformer-su-2021.md
-- etc.
+- Week 4: Scaling Laws (Kaplan 2020) → summaries/scaling-laws-neural-language-models-kaplan-2020.md
+- Week 4: Training Compute-Optimal LLMs (Hoffmann 2022) → summaries/training-compute-optimal-llm-hoffmann-2022.md
+- Week 5: Switch Transformers (Fedus 2021) → summaries/switch-transformers-moe-fedus-2021.md
+- Week 5: LLaMA 2 (Touvron 2023) → summaries/llama-2-open-foundation-touvron-2023.md
+- Week 6: FlashAttention (Dao 2022) → summaries/flashattention-fast-io-aware-dao-2022.md
+- Week 6: GPTQ (Frantar 2022) → summaries/gptq-accurate-post-training-quant-frantar-2022.md
+- Week 7: FLAN (Wei 2021) → summaries/flan-finetuned-zero-shot-wei-2021.md
+- Week 7: Emergent Abilities (Wei 2022) → summaries/emergent-abilities-llm-wei-2022.md
+- Week 7 (Added): HELM (Liang 2022) → summaries/helm-holistic-evaluation-liang-2022.md
+- Week 7 (Added): BIG-bench (Srivastava 2022) → summaries/big-bench-beyond-imitation-game-srivastava-2022.md
+- Week 8: InstructGPT (Ouyang 2022) → summaries/instructgpt-training-instructions-ouyang-2022.md
+- Week 8: Deep RL Human Preferences (Christiano 2017) → summaries/deep-rl-human-preferences-christiano-2017.md
+- Week 9: DPO (Rafailov 2023) → summaries/dpo-direct-preference-optimization-rafailov-2023.md
+- Week 9: Constitutional AI (Bai 2022) → summaries/constitutional-ai-harmlessness-bai-2022.md
+- Week 9 (Added): TruthfulQA (Lin 2021) → summaries/truthfulqa-measuring-falsehoods-lin-2021.md
+- Week 9 (Added): Measuring Faithfulness in CoT (Lanham 2023) → summaries/measuring-faithfulness-cot-lanham-2023.md
+- Week 10: Chain-of-Thought (Wei 2022) → summaries/chain-of-thought-reasoning-wei-2022.md
+- Week 10: ReAct (Yao 2022) → summaries/react-reasoning-and-acting-yao-2022.md
+- Week 10 (Added): Toolformer (Schick 2023) → summaries/toolformer-llms-use-tools-schick-2023.md
+- Week 10 (Added): Gorilla (Patil 2023) → summaries/gorilla-llm-connected-apis-patil-2023.md
+- Week 10 (Added): Flamingo (Alayrac 2022) → summaries/flamingo-visual-language-model-alayrac-2022.md
+- Week 10 (Added): LLaVA (Liu 2023) → summaries/llava-visual-instruction-tuning-liu-2023.md
+- Week 10 (Added): Kosmos-2 (Peng 2023) → summaries/kosmos-2-grounding-multimodal-peng-2023.md
+- Week 11: RAG (Lewis 2020) → summaries/rag-retrieval-augmented-generation-lewis-2020.md
+- Week 11: Lost in the Middle (Liu 2023) → summaries/lost-in-the-middle-long-context-liu-2023.md
+- Week 11 (Added): LoRA (Hu 2021) → summaries/lora-low-rank-adaptation-hu-2021.md
+- Week 11 (Added): vLLM (Kwon 2023) → summaries/vllm-pagedattention-serving-kwon-2023.md
+- Week 11 (Added): MemGPT (Wu 2023) → summaries/memgpt-llms-operating-systems-wu-2023.md
+- Week 12: Mamba (Gu & Dao 2023) → summaries/mamba-linear-time-ssm-gu-dao-2023.md
+- Week 12: RetNet (Wu 2023) → summaries/retentive-network-retnet-wu-2023.md
+- Week 12 (Added): Hyena (Poli 2023) → summaries/hyena-hierarchy-convolutional-poli-2023.md
+- Week 12 (Added): Jamba (Lieber 2024) → summaries/jamba-hybrid-transformer-mamba-lieber-2024.md
+- Extension A: Universal Adversarial Attacks (Zou 2023) → summaries/universal-adversarial-attacks-aligned-llms-zou-2023.md
+- Extension A: Scalable Poisoning (Schmid 2024) → summaries/scalable-transferable-poisoning-schmid-2024.md
+- Extension A: Security of RAG (Mouton 2023) → summaries/security-of-retrieval-augmented-generation-mouton-2023.md
+- Extension A: LLM Attack Zoo (Gao 2024) → summaries/llm-attack-zoo-categorization-gao-2024.md
+- Extension A (Added): Red Teaming (Perez 2022) → summaries/red-teaming-reduce-harms-perez-2022.md
+- Extension A (Added): Watermark for LLMs (Kirchenbauer 2023) → summaries/watermark-large-language-models-kirchenbauer-2023.md
+- Extension A (Added): Certified Robustness (Wang 2023) → summaries/certified-robustness-word-substitutions-wang-2023.md
+- Extension A (Added): Poisoning Instruction Tuning (Qi 2023) → summaries/poisoning-instruction-tuning-qi-2023.md
+- Extension B: Stochastic Parrots (Bender 2021) → summaries/dangers-of-stochastic-parrots-bias-bender-2021.md
+- Extension B: Measuring Bias (Bansal 2020) → summaries/measuring-mitigating-bias-grounded-language-bansal-2020.md
+- Extension B: Alignment Problem (Amodei 2016) → summaries/the-alignment-problem-safety-amodei-2016.md
+- Extension B: Constitutional AI (duplicate with Week 9) — use same summary
 - Include Extension tracks after core weeks or interleave as time allows.
 
 Marking tasks complete
