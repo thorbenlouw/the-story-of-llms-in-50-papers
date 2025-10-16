@@ -136,18 +136,18 @@ Context
 - Notes path (optional): work/notes/rnn-regularization-zaremba-2014.md
 
 Tasks
-- [ ] 1. Identify next paper to process (Week 1, Paper 2): record metadata and course context.
-- [ ] 2. Locate PDF and verify accessibility: [llm_papers_syllabus/RNN_Regularization_Zaremba_2014.pdf](llm_papers_syllabus/RNN_Regularization_Zaremba_2014.pdf)
-- [ ] 3. Prepare context from [course-syllabus.md](course-syllabus.md): contrast framing vs. Transformer.
-- [ ] 4. Create notes file: work/notes/rnn-regularization-zaremba-2014.md
-- [ ] 5. Skim and outline (10–12 bullets) in the notes file.
-- [ ] 6. Generate summary draft using [Prompt.md](Prompt.md); include TL;DR and required sections.
-- [ ] 7. Add 5 discussion questions and 8–12 term glossary.
-- [ ] 8. Tie explicitly to Transformer motivation (limitations of RNNs).
-- [ ] 9. Claims and consistency check against the PDF text; refine as needed.
-- [ ] 10. Save final to summaries/rnn-regularization-zaremba-2014.md
-- [ ] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add “Figure Insights”.
+- [x] 1. Identify next paper to process (Week 1, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: [llm_papers_syllabus/RNN_Regularization_Zaremba_2014.pdf](llm_papers_syllabus/RNN_Regularization_Zaremba_2014.pdf)
+- [x] 3. Prepare context from [course-syllabus.md](course-syllabus.md): contrast framing vs. Transformer.
+- [x] 4. Create notes file: work/notes/rnn-regularization-zaremba-2014.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using [Prompt.md](Prompt.md); include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie explicitly to Transformer motivation (limitations of RNNs).
+- [x] 9. Claims and consistency check against the PDF text; refine as needed.
+- [x] 10. Save final to summaries/rnn-regularization-zaremba-2014.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [ ] 12. Optional: add "Figure Insights".
 
 Planned upcoming instances (add as you go)
 - Week 2: GPT-1 (Radford 2018) → summaries/improving-language-understanding-gpt1-radford-2018.md
