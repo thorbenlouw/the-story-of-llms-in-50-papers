@@ -214,3 +214,12 @@ The paper shifts perspective from "make attention faster by reducing FLOPs" to "
 - Rabe, M. N., & Staats, C. (2021). Self-attention does not need O(n²) memory. *arXiv:2112.05682*
 - Vaswani, A., et al. (2017). Attention is all you need. *NeurIPS 2017*
 - Child, R., et al. (2019). Generating long sequences with sparse transformers. *arXiv:1904.10509*
+
+## Figure Insights
+
+- Figure 1 (Tiling Diagram): Visualizes block-wise attention computation and
+  on-chip accumulation of softmax stats to avoid materializing O(N²) matrices.
+- Figure 2 (HBM Access Analysis): Breaks down reads/writes per kernel showing
+  major reductions from fusion and IO-aware design.
+- Figure 3 (Runtime/Memory Benchmarks): Benchmarks vs PyTorch and Triton
+  baselines across sequence lengths, demonstrating speed and memory savings.

@@ -89,3 +89,14 @@ This paper is a cornerstone of Week 2, as it perfectly embodies the key topics:
 - Vaswani, A., et al. (2017). "Attention Is All You Need." *arXiv:1706.03762*.
 - Radford, A., et al. (2018). "Improving Language Understanding by Generative Pre-Training."
 - Peters, M. E., et al. (2018). "Deep contextualized word representations." *arXiv:1802.05365*.
+
+## Figure Insights
+
+- Architecture diagram: Depicts the Transformer encoder stack with `[CLS]` and
+  `[SEP]` tokens, token/segment/position embeddings, and bidirectional
+  self-attention across all layers.
+- Pre-training objectives diagram: Illustrates Masked Language Modeling (random
+  token masking/replacement rates) and Next Sentence Prediction (positive vs
+  negative sentence pairs) setup.
+- Leaderboard tables: Summarize GLUE and SQuAD results showing BERT_BASE and
+  BERT_LARGE improvements over prior models across diverse tasks.

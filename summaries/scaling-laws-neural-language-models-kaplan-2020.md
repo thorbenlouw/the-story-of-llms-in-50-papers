@@ -171,3 +171,10 @@ The **critical batch size** concept (Section 5.1) is essential for lab work on d
 - McCandlish, S., Kaplan, J., Amodei, D., & OpenAI Dota Team (2018). An empirical model of large-batch training. arXiv:1812.06162.
 - Hoffmann, J., Borgeaud, S., Mensch, A., et al. (2022). Training Compute-Optimal Large Language Models. arXiv:2203.15556.
 - Hestness, J., Narang, S., Ardalani, N., et al. (2017). Deep learning scaling is predictable, empirically. arXiv:1712.00409.
+
+## Figure Insights
+
+- Figure 1 (Three Scaling Laws): Visual summary of predictable power-law loss
+  scaling with model size (N), dataset size (D), and compute/steps (C/S).
+- Figure 13 (C_min Scaling): Shows compute-minimizing training loss vs compute
+  and the implications for early stopping and allocation.

@@ -113,3 +113,14 @@ Understanding positional encodings from Section 3.5 prepares students for Week 3
 ## References
 
 Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention Is All You Need. *Advances in Neural Information Processing Systems (NeurIPS)*, 30. arXiv:1706.03762
+
+## Figure Insights
+
+- Figure 1 (Model Architecture): Shows the encoder-decoder layout with stacked
+  self-attention and feed-forward blocks, plus residual connections and layer
+  normalization. Clarifies where masked self-attention appears in the decoder
+  and where cross-attention attends to the encoder outputs.
+- Table 1 (Complexity): Compares per-layer computational complexity and maximum
+  path length for self-attention vs. recurrent and convolutional models,
+  motivating why the Transformer parallelizes better and shortens information
+  paths despite O(n²) attention.

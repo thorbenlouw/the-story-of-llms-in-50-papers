@@ -183,3 +183,12 @@ Raffel, C., et al. (2020). Exploring the limits of transfer learning with a unif
 Katharopoulos, A., et al. (2020). Transformers are RNNs: Fast autoregressive transformers with linear attention. *ICML*.
 
 Choromanski, K., et al. (2020). Rethinking attention with performers. *arXiv preprint arXiv:2009.14794*.
+
+## Figure Insights
+
+- Figure 1 (Rotation Illustration): Visualizes applying rotary position
+  embeddings as complex rotations to query/key pairs, preserving relative
+  positions via phase differences.
+- Figure 2 (Long-Term Decay): Plots theoretical and empirical attention decay
+  with distance under RoPE, supporting improved long-range behavior vs absolute
+  encodings.

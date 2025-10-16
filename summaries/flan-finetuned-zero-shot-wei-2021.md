@@ -186,3 +186,14 @@ Raffel, C., Shazeer, N., Roberts, A., Lee, K., Narang, S., Matena, M., ... & Liu
 Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., ... & Lowe, R. (2022). Training language models to follow instructions with human feedback. *Advances in Neural Information Processing Systems*, 35, 27730-27744.
 
 Sanh, V., Webson, A., Raffel, C., Bach, S. H., Sutawika, L., Alyafeai, Z., ... & Rush, A. M. (2021). Multitask prompted training enables zero-shot task generalization. *arXiv preprint arXiv:2110.08207*.
+
+## Figure Insights
+
+- Figure 1 (Instruction Tuning Overview): Schematic of collecting instruction
+  templates and finetuning to improve zero-shot generalization.
+- Figure 5 (Zero-Shot Across Tasks): Compares zero-shot performance across task
+  types vs baselines, showing broad gains.
+- Figure 6 (Task Cluster Ablation): Shows performance drops when removing task
+  clusters during training, evidencing cross-task transfer.
+- Figure 7 (Scale Dependence): Demonstrates larger models benefit more from
+  instruction tuning, with thresholds for strong zero-shot gains.

@@ -128,3 +128,20 @@ Finally, HELM's **living benchmark** design anticipates the rapid evolution of l
 - Perturbation methods: NL-Augmenter (Dhole et al., 2021), Contrast Sets (Gardner et al., 2020)
 - Bias measurement: Bolukbasi et al. (2016), Garg et al. (2018), BBQ (Parrish et al., 2022)
 - Models evaluated include: GPT-3 (Brown et al., 2020), InstructGPT (Ouyang et al., 2022), T5/T0++ (Raffel et al., 2019; Sanh et al., 2021), OPT (Zhang et al., 2022), BLOOM (Scao et al., 2022), and many others documented in Table 5
+
+## Figure Insights
+
+- Figure 2 (Taxonomy Structure): Overview of scenarios (task × domain × language)
+  capturing breadth of user-facing use cases.
+- Figure 3 (Multi-Metric Approach): Visualizes the accuracy/robustness/fairness
+  matrix and the rationale for multi-dimensional reporting.
+- Figure 4 (Standardization Before/After): Demonstrates variance reduction via
+  standardized prompts, contexts, and evaluation harness.
+- Figures 24–26 (Inter-Metric Relationships): Correlation plots between metrics
+  suggesting where improvements co-occur or trade off.
+- Figure 28 (Accessibility Gap): Shows compute/data accessibility disparities
+  across model families and implications for reproducible evaluation.
+- Figure 31 (Prompting Variance): Quantifies sensitivity to prompt format and
+  adaptation method choices.
+- Figure 33 (Adaptation Sensitivity): Compares separate vs joint choice formats
+  and calibration strategies for multiple-choice scenarios.

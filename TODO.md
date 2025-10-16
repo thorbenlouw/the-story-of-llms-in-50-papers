@@ -126,7 +126,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/attention-is-all-you-need-vaswani-2017.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (e.g., Figure 1 architecture; scaling in Table 1).
+- [x] 12. Optional: add "Figure Insights" (e.g., Figure 1 architecture; scaling in Table 1).
 
 Active Task Instance 002: Week 1 — Recurrent Neural Network Regularization (Zaremba et al., 2014)
 Context
@@ -191,7 +191,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/bert-pretraining-devlin-2018.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights".
+- [x] 12. Optional: add "Figure Insights".
 
 Active Task Instance 005: Week 3 — Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (Raffel et al., 2019)
 Context
@@ -213,7 +213,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/t5-unified-text-to-text-raffel-2019.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (e.g., Figure 1 text-to-text examples, Figure 2 span corruption).
+- [x] 12. Optional: add "Figure Insights" (e.g., Figure 1 text-to-text examples, Figure 2 span corruption).
 
 Active Task Instance 006: Week 3 — RoFormer: Enhanced Transformer with Rotary Position Embedding (Su et al., 2021)
 Context
@@ -235,7 +235,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/roformer-enhanced-transformer-su-2021.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 1 rotation illustration, Figure 2 long-term decay).
+- [x] 12. Optional: add "Figure Insights" (Figure 1 rotation illustration, Figure 2 long-term decay).
 
 Active Task Instance 007: Week 4 — Scaling Laws for Neural Language Models (Kaplan et al., 2020)
 Context
@@ -257,7 +257,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/scaling-laws-neural-language-models-kaplan-2020.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 1 shows all three scaling laws; Figure 13 shows C_min scaling).
+- [x] 12. Optional: add "Figure Insights" (Figure 1 shows all three scaling laws; Figure 13 shows C_min scaling).
 
 Active Task Instance 008: Week 4 — Training Compute-Optimal Large Language Models (Hoffmann et al., 2022)
 Context
@@ -279,7 +279,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/training-compute-optimal-llm-hoffmann-2022.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 1 shows three approaches overlaid; Figure 3 shows IsoFLOP curves; Table 2 shows scaling coefficients).
+- [x] 12. Optional: add "Figure Insights" (Figure 1 shows three approaches overlaid; Figure 3 shows IsoFLOP curves; Table 2 shows scaling coefficients).
 
 Active Task Instance 009: Week 5 — Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity (Fedus et al., 2021)
 Context
@@ -301,7 +301,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/switch-transformers-moe-fedus-2021.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 2 architecture, Figure 3 capacity factor, Figure 5 speedup).
+- [x] 12. Optional: add "Figure Insights" (Figure 2 architecture, Figure 3 capacity factor, Figure 5 speedup).
 
 Active Task Instance 010: Week 5 — LLaMA 2: Open Foundation and Fine-Tuned Chat Models (Touvron et al., 2023)
 Context
@@ -324,7 +324,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/llama-2-open-foundation-touvron-2023.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 4 RLHF pipeline, Figure 6 reward scaling, Figure 20 distribution shift).
+- [x] 12. Optional: add "Figure Insights" (Figure 4 RLHF pipeline, Figure 6 reward scaling, Figure 20 distribution shift).
 
 Active Task Instance 011: Week 6 — FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness (Dao et al., 2022)
 Context
@@ -346,7 +346,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed.
 - [x] 10. Save final to summaries/flashattention-fast-io-aware-dao-2022.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 1 tiling diagram, Figure 2 HBM access analysis, Figure 3 runtime/memory benchmarks).
+- [x] 12. Optional: add "Figure Insights" (Figure 1 tiling diagram, Figure 2 HBM access analysis, Figure 3 runtime/memory benchmarks).
 
 Active Task Instance 012: Week 6 — GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers (Frantar et al., 2022)
 Context
@@ -368,7 +368,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed (verified 8 key claims).
 - [x] 10. Save final to summaries/gptq-accurate-post-training-quant-frantar-2022.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 1 shows OPT/BLOOM 4-bit and 3-bit comparison; Figure 2 shows GPTQ block quantization procedure; Algorithm 1 pseudocode).
+- [x] 12. Optional: add "Figure Insights" (Figure 1 shows OPT/BLOOM 4-bit and 3-bit comparison; Figure 2 shows GPTQ block quantization procedure; Algorithm 1 pseudocode).
 Active Task Instance 013: Week 7 — Finetuned Language Models are Zero-Shot Learners (Wei et al., 2021)
 Context
 - Syllabus entry: Week 7 — Instruction Tuning and Generalization (Phase III)
@@ -389,7 +389,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed (verified key claims about 62 datasets, 137B parameters, outperforming GPT-3 on 20/25 datasets, scale dependence at ≥68B, OPTIONS suffix technique, task cluster methodology, and ablation study findings).
 - [x] 10. Save final to summaries/flan-finetuned-zero-shot-wei-2021.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 1 shows instruction tuning overview; Figure 5 compares zero-shot performance across task types; Figure 6 shows task cluster ablation; Figure 7 demonstrates scale dependence).
+- [x] 12. Optional: add "Figure Insights" (Figure 1 shows instruction tuning overview; Figure 5 compares zero-shot performance across task types; Figure 6 shows task cluster ablation; Figure 7 demonstrates scale dependence).
 
 
 Active Task Instance 014: Week 7 — Emergent Abilities of Large Language Models (Wei et al., 2022)
@@ -412,7 +412,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed (verified 8 key claims: emergent ability definition, GPT-3 arithmetic thresholds, MMLU emergence scales, WiC benchmark progression, chain-of-thought emergence, instruction following emergence, cross-entropy analysis, and PaLM 62B outperformance).
 - [x] 10. Save final to summaries/emergent-abilities-llm-wei-2022.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 2 shows eight emergent few-shot tasks; Figure 3 shows four augmented prompting strategies; Figure 4 shows MMLU emergence across three metrics; Table 1 lists all emergent abilities and scales).
+- [x] 12. Optional: add "Figure Insights" (Figure 2 shows eight emergent few-shot tasks; Figure 3 shows four augmented prompting strategies; Figure 4 shows MMLU emergence across three metrics; Table 1 lists all emergent abilities and scales).
 Active Task Instance 015: Week 7 — Holistic Evaluation of Language Models (Liang et al., 2022)
 Context
 - Syllabus entry: Week 7 — Instruction Tuning and Generalization (Phase III)
@@ -433,7 +433,7 @@ Tasks
 - [x] 9. Claims and consistency check against the PDF text; refine as needed (verified key claims about 17.9% → 96% coverage, 30 models, 87.5% multi-metric coverage, text-davinci-002 dominance, 62% TruthfulQA accuracy, AAE disparities 1.506 vs 2.114 BPB, 50B parameter threshold, prompting sensitivity findings).
 - [x] 10. Save final to summaries/helm-holistic-evaluation-liang-2022.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
-- [ ] 12. Optional: add "Figure Insights" (Figure 2 taxonomy structure, Figure 3 multi-metric approach, Figure 4 standardization before/after, Figure 24-26 inter-metric relationships, Figure 28 accessibility gap, Figure 31 prompting variance, Figure 33 adaptation method sensitivity).
+- [x] 12. Optional: add "Figure Insights" (Figure 2 taxonomy structure, Figure 3 multi-metric approach, Figure 4 standardization before/after, Figure 24-26 inter-metric relationships, Figure 28 accessibility gap, Figure 31 prompting variance, Figure 33 adaptation method sensitivity).
 
 
 Planned upcoming instances (add as you go)
@@ -485,3 +485,25 @@ Marking tasks complete
 
 Change log
 - v0.1 Initial TODO with per-paper template and Week 1 task instances; duplicate BAI note included.
+ 
+Active Task Instance 016: Week 7 — Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models (Srivastava et al., 2022)
+Context
+- Syllabus entry: Week 7 — Instruction Tuning and Generalization (Phase III)
+- Key Topics & Labs: The shift to instruction-following. Task generalization via instruction-tuning (FLAN). Emergent abilities (In-context learning). Multimodality introduction. Evaluation & Benchmarking: Holistic evaluation frameworks and task diversity. Lab: Mini-eval comparing two open models on 3–5 HELM/BIG-bench categories; report accuracy + calibration notes.
+- PDF path: [llm_papers_syllabus/BIG_Bench_Beyond_Imitation_Game_Srivastava_2022.pdf](llm_papers_syllabus/BIG_Bench_Beyond_Imitation_Game_Srivastava_2022.pdf)
+- Output path: summaries/big-bench-beyond-imitation-game-srivastava-2022.md
+- Notes path: work/notes/big-bench-beyond-imitation-game-srivastava-2022.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 7, Additional Reading 4): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: [llm_papers_syllabus/BIG_Bench_Beyond_Imitation_Game_Srivastava_2022.pdf](llm_papers_syllabus/BIG_Bench_Beyond_Imitation_Game_Srivastava_2022.pdf)
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 7.
+- [x] 4. Create notes file: work/notes/big-bench-beyond-imitation-game-srivastava-2022.md (optional — skipped).
+- [x] 5. Skim and outline (10–12 bullets) in the notes file (captured inline during drafting).
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Instruction Tuning and Generalization" and evaluation/benchmarking lab explicitly.
+- [x] 9. Claims and consistency check against the PDF text; soften claims without page numbers and flag general sections.
+- [x] 10. Save final to summaries/big-bench-beyond-imitation-game-srivastava-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" (aggregate category plots; prompt sensitivity ablations).

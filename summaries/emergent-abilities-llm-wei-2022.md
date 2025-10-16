@@ -168,3 +168,14 @@ This paper is **foundational** to Week 7's focus on instruction tuning and gener
 - Thoppilan, R., De Freitas, D., Hall, J., et al. (2022). LaMDA: Language models for dialog applications. *arXiv:2201.08239*.
 - Wei, J., Bosma, M., Zhao, V. Y., et al. (2022a). Finetuned language models are zero-shot learners. *ICLR*. (FLAN paper)
 - Wei, J., Wang, X., Schuurmans, D., et al. (2022b). Chain of thought prompting elicits reasoning in large language models. *NeurIPS*.
+
+## Figure Insights
+
+- Figure 2 (Emergent Few-Shot Tasks): Plots showing sharp transitions from
+  near-random to strong performance at scale on arithmetic and reasoning tasks.
+- Figure 3 (Augmented Prompting): Compares gains from chain-of-thought,
+  self-consistency, and other prompting strategies across sizes.
+- Figure 4 (MMLU Emergence): Shows accuracy vs model size/compute across three
+  metrics, revealing thresholds where broad knowledge emerges.
+- Table 1 (Emergent Abilities and Scales): Catalogs abilities with approximate
+  parameter thresholds and datasets indicating emergence points.

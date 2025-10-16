@@ -252,3 +252,12 @@ If students implement scaling experiments as suggested in Week 4, this paper pro
 - Hendrycks, D., et al. (2020). Measuring Massive Multitask Language Understanding. arXiv:2009.03300
 - Clark, A., et al. (2022). Unified Scaling Laws for Routed Language Models. arXiv:2202.01169
 - Gao, L., et al. (2020). The Pile: An 800GB Dataset of Diverse Text for Language Modeling. arXiv:2101.00027
+
+## Figure Insights
+
+- Figure 1 (Approaches Overlaid): Compares three strategies—scaling parameters,
+  data, and compute—for reducing loss; motivates compute-optimal tradeoffs.
+- Figure 3 (IsoFLOP Curves): Shows performance vs parameter count for fixed
+  compute budgets, revealing optimal model sizes per budget.
+- Table 2 (Scaling Coefficients): Reports α, β exponents for loss vs N and D,
+  underpinning the Chinchilla N∝D prescription.

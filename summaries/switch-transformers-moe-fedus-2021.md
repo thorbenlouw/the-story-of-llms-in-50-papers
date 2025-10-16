@@ -156,3 +156,12 @@ Switch Transformers exemplify the core Week 5 themes:
 - Section 2.4 (p. 10): Initialization scale reduced to 0.1x from 1.0x
 - Table 3 (p. 10): Quality -2.72 vs -3.60, std dev 0.01 vs 0.68 with smaller init
 - Table 9 (p. 23): Switch-XXL at 250k steps: -1.086 vs T5-XXL -1.147
+
+## Figure Insights
+
+- Figure 2 (Architecture): Depicts Switch layer with router selecting top-1
+  expert and expert parallel all-to-all dispatch/return.
+- Figure 3 (Capacity Factor): Shows impact of capacity factor on token drops
+  and quality, motivating modest overprovisioning.
+- Figure 5 (Speedup vs Quality): Plots wall-clock speed vs quality showing
+  Switch models reaching targets in a fraction of time vs dense baselines.

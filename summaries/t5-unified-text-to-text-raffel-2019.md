@@ -186,3 +186,10 @@ This paper perfectly aligns with Week 3's focus on **"Positional Encoding Deep D
 - Kaplan et al. (2020). Scaling Laws for Neural Language Models. arXiv:2001.08361
 - Hoffmann et al. (2022). Training Compute-Optimal Large Language Models. arXiv:2203.15556
 - McCann et al. (2018). The Natural Language Decathlon: Multitask Learning as Question Answering. arXiv:1806.08730
+
+## Figure Insights
+
+- Figure 1 (Text-to-Text Examples): Shows diverse NLP tasks converted into the
+  unified text-to-text format, motivating a single model and loss across tasks.
+- Figure 2 (Span Corruption): Illustrates the span-masking denoising objective
+  with sentinel tokens in inputs/targets and how targets concatenate spans.

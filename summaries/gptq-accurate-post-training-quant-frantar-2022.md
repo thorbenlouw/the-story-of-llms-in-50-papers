@@ -145,3 +145,12 @@ The paper exemplifies **quantization schemes** (the third key topic for Week 6) 
 - Dettmers et al. (2022). "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale." [arXiv:2208.07339](https://arxiv.org/abs/2208.07339)
 - Yao et al. (2022). "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers." [arXiv:2206.01861](https://arxiv.org/abs/2206.01861)
 - Zhang et al. (2022). "OPT: Open Pre-Trained Transformer Language Models." [arXiv:2205.01068](https://arxiv.org/abs/2205.01068)
+
+## Figure Insights
+
+- Figure 1 (OPT/BLOOM Comparison): Compares perplexity/accuracy trade-offs of
+  4-bit and 3-bit quantization across models and tasks.
+- Figure 2 (GPTQ Block Procedure): Illustrates the block-wise reconstruction
+  and Hessian update flow at the core of GPTQ.
+- Algorithm 1 (Pseudocode): Presents the layer-wise GPTQ algorithm with Cholesky
+  updates and lazy batching optimizations.

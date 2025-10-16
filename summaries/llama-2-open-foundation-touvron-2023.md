@@ -213,3 +213,12 @@ While Llama 2 is not itself a Mixture-of-Experts architecture, it exemplifies **
 7. Ainslie, J., et al. (2023). "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints." *arXiv preprint*.
 
 8. Vaswani, A., et al. (2017). "Attention Is All You Need." *Proceedings of NeurIPS*.
+
+## Figure Insights
+
+- Figure 4 (RLHF Pipeline): Shows the SFT → Reward Modeling → PPO loop and
+  rejection sampling variant used for Llama-2-Chat training.
+- Figure 6 (Reward Scaling): Plots alignment metrics vs reward model strength
+  and training iterations, highlighting trade-offs and diminishing returns.
+- Figure 20 (Distribution Shift): Compares in-domain vs out-of-domain safety
+  and helpfulness performance, illustrating robustness gaps.
