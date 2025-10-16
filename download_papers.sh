@@ -1,0 +1,97 @@
+#!/bin/bash
+#
+# Bash script to download seminal LLM papers using curl.
+# This script is designed to handle standard arXiv links by appending .pdf
+# and a few special non-arXiv links.
+
+# Directory to save the downloaded PDFs
+DOWNLOAD_DIR="llm_papers_syllabus"
+mkdir -p "$DOWNLOAD_DIR"
+
+# List of papers: "Title"|"arXiv_ID_or_Full_URL"|"Author_Year"
+# Note: For simplicity and to create clean filenames, titles are abbreviated and cleaned.
+PAPER_LIST=(
+    "Attention_Is_All_You_Need|1706.03762|Vaswani_2017"
+    "RNN_Regularization|1409.2329|Zaremba_2014"
+    "Improving_Language_Understanding_GPT1|https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf|Radford_2018"
+    "BERT_Bidirectional_Transformers|1810.04805|Devlin_2018"
+    "T5_Unified_Text_to_Text|1910.10683|Raffel_2019"
+    "RoFormer_Rotary_Position_Embedding|2104.09864|Su_2021"
+    "Scaling_Laws_Neural_Language_Models|2001.08361|Kaplan_2020"
+    "Training_Compute_Optimal_LLM|2203.15556|Hoffmann_2022"
+    "Switch_Transformers_MoE|2101.03961|Fedus_2021"
+    "LLaMA_2_Open_Foundation|2307.09288|Touvron_2023"
+    "FlashAttention_Fast_IO_Aware|2205.14135|Dao_2022"
+    "GPTQ_Accurate_Post_Training_Quant|2210.17323|Frantar_2022"
+    "FLAN_Finetuned_Zero_Shot|2109.01652|Wei_2021"
+    "Emergent_Abilities_LLM|2206.07682|Wei_2022"
+    "InstructGPT_Training_Instructions|2203.02155|Ouyang_2022"
+    "Deep_RL_Human_Preferences|1706.03741|Christiano_2017"
+    "DPO_Direct_Preference_Optimization|2305.18290|Rafailov_2023"
+    "Constitutional_AI_Harmlessness|2212.08073|Bai_2022"
+    "Chain_of_Thought_Reasoning|2201.11903|Wei_2022"
+    "ReAct_Reasoning_and_Acting|2210.03629|Yao_2022"
+    "RAG_Retrieval_Augmented_Generation|2005.11401|Lewis_2020"
+    "Lost_in_the_Middle_Long_Context|2307.03172|Liu_2023"
+    "Mamba_Linear_Time_SSM|2312.00752|Gu_Dao_2023"
+    "Retentive_Network_RetNet|2307.08621|Wu_2023"
+    # --- Extension Track A: Security & Attacks ---
+    "Universal_Adversarial_Attacks_Aligned_LLMs|2307.15043|Zou_2023"
+    "Scalable_Transferable_Poisoning|2405.02102|Schmid_2024"
+    "Security_of_Retrieval_Augmented_Generation|2311.12151|Mouton_2023"
+    "LLM_Attack_Zoo_Categorization|2404.14819|Gao_2024"
+    # --- Extension Track B: Ethics & Bias ---
+    "Dangers_of_Stochastic_Parrots_Bias|2101.00027|Bender_2021"
+    "Measuring_Mitigating_Bias_Grounded_Language|2005.14167|Bansal_2020"
+    "The_Alignment_Problem_Safety|1606.06565|Amodei_2016"
+    "Constitutional_AI_Harmlessness_CAI|2212.08073|Bai_2022"
+)
+
+# Function to download a single paper
+download_paper() {
+    local full_name="$1"
+    local source_id="$2"
+    local author_year="$3"
+    local filename="${DOWNLOAD_DIR}/${full_name}_${author_year}.pdf"
+    local url=""
+
+    # 1. Check if the file already exists
+    if [ -f "$filename" ]; then
+        echo "-> [SKIP] File already exists: $filename"
+        return 0
+    fi
+
+    # 2. Determine the download URL
+    # Check if the source is a full URL (e.g., the OpenAI PDF)
+    if [[ "$source_id" == "http"* ]]; then
+        url="$source_id"
+    else
+        # Assume standard arXiv ID format and construct the PDF link
+        url="https://arxiv.org/pdf/${source_id}.pdf"
+    fi
+
+    # 3. Download the file
+    echo "-> Downloading ${full_name}..."
+    # Use curl to download the file. -s silent, -L follow redirects, -o output file
+    curl -s -L "$url" -o "$filename"
+
+    if [ $? -eq 0 ]; then
+        echo "   [SUCCESS] Saved to: $filename"
+    else
+        echo "   [ERROR] Failed to download from $url"
+    fi
+}
+
+echo "Starting download of ${#PAPER_LIST[@]} LLM research papers to /$DOWNLOAD_DIR..."
+echo "--------------------------------------------------------"
+
+for item in "${PAPER_LIST[@]}"; do
+    # Split the item by the pipe delimiter
+    IFS='|' read -r title id year <<< "$item"
+    download_paper "$title" "$id" "$year"
+done
+
+echo "--------------------------------------------------------"
+echo "Download process complete."
+echo "To view the papers, navigate to the /$DOWNLOAD_DIR directory."
+

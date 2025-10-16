@@ -1,0 +1,1 @@
+We have designed an advanced LLM course -- you can read the syllabus in @/course-syllabus.md . Your task is described in @/Prompt.md . Read the next (incomplete) task in @/TODO.md  and use the prompt instructions to complete it
