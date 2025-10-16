@@ -507,3 +507,25 @@ Tasks
 - [x] 10. Save final to summaries/big-bench-beyond-imitation-game-srivastava-2022.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
 - [x] 12. Optional: add "Figure Insights" (aggregate category plots; prompt sensitivity ablations).
+
+Active Task Instance 017: Week 8 — Training language models to follow instructions with human feedback (Ouyang et al., 2022)
+Context
+- Syllabus entry: Week 8 — Reinforcement Learning from Human Feedback (RLHF)
+- Key Topics & Labs: The full RLHF pipeline: SFT, Reward Model (RM), PPO optimization. KL divergence penalty. The role of human preference data in alignment.
+- PDF path: [llm_papers_syllabus/InstructGPT_Training_Instructions_Ouyang_2022.pdf](llm_papers_syllabus/InstructGPT_Training_Instructions_Ouyang_2022.pdf)
+- Output path: summaries/instructgpt-training-instructions-ouyang-2022.md
+- Notes path: work/notes/instructgpt-training-instructions-ouyang-2022.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 8, Paper 1): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: [llm_papers_syllabus/InstructGPT_Training_Instructions_Ouyang_2022.pdf](llm_papers_syllabus/InstructGPT_Training_Instructions_Ouyang_2022.pdf)
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 8.
+- [x] 4. Create notes file: work/notes/instructgpt-training-instructions-ouyang-2022.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "RLHF" and KL/divergence control explicitly.
+- [x] 9. Claims and consistency check against the PDF structure; include conservative section hints for core claims.
+- [x] 10. Save final to summaries/instructgpt-training-instructions-ouyang-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" (pipeline diagram illustrating SFT → RM → PPO with KL anchor).
