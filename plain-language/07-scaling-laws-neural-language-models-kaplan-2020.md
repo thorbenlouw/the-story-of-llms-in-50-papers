@@ -110,3 +110,6 @@ parameters and data. But the central lesson holds: if you can afford to scale,
 performance improves in ways you can plan for.
 
 [Paper](llm_papers_syllabus/Scaling_Laws_Neural_Language_Models_Kaplan_2020.pdf)
+## See Also
+- Prev: [RoFormer (Rotary Position Embedding)](06-roformer-enhanced-transformer-su-2021.md)
+- Next: [Training Compute-Optimal LLMs (Chinchilla)](08-training-compute-optimal-llm-hoffmann-2022.md)

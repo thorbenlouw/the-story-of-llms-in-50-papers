@@ -119,4 +119,6 @@ systems. Switch Transformers are an early, influential milestone in that
 broader move from brute force to smart allocation.
 
 [Paper](llm_papers_syllabus/Switch_Transformers_MoE_Fedus_2021.pdf)
-
+## See Also
+- Prev: [Training Compute-Optimal LLMs (Chinchilla)](08-training-compute-optimal-llm-hoffmann-2022.md)
+- Next: [LLaMA 2: Open Foundation and Chat](10-llama-2-open-foundation-touvron-2023.md)

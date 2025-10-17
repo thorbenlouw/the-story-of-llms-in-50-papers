@@ -99,4 +99,6 @@ fetch knowledge at inference rather than bake it all into parameters. Equal
 scaling doesn’t end the story; it helps you decide the next efficient step.
 
 [Paper](llm_papers_syllabus/Training_Compute_Optimal_LLM_Hoffmann_2022.pdf)
-
+## See Also
+- Prev: [Scaling Laws for Neural Language Models](07-scaling-laws-neural-language-models-kaplan-2020.md)
+- Next: [Switch Transformers (Mixture-of-Experts)](09-switch-transformers-moe-fedus-2021.md)

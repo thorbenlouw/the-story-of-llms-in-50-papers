@@ -113,4 +113,6 @@ InstructGPT is hiring a head chef to taste the dishes and guide adjustments. You
 need both to get from raw capability to reliable assistants.
 
 [Paper](llm_papers_syllabus/FLAN_Finetuned_Zero_Shot_Wei_2021.pdf)
-
+## See Also
+- Prev: [GPTQ Quantization](12-gptq-accurate-post-training-quant-frantar-2022.md)
+- Next: [Emergent Abilities of LLMs](14-emergent-abilities-llm-wei-2022.md)

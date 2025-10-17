@@ -108,4 +108,6 @@ fine‑tuning (like LoRA). The result is a practical recipe: train smart, route
 smart, move data smart—and store smart, too.
 
 [Paper](llm_papers_syllabus/GPTQ_Accurate_Post_Training_Quant_Frantar_2022.pdf)
-
+## See Also
+- Prev: [FlashAttention](11-flashattention-fast-io-aware-dao-2022.md)
+- Next: [FLAN: Instruction Tuning](13-flan-finetuned-zero-shot-wei-2021.md)

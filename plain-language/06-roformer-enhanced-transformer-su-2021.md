@@ -113,4 +113,6 @@ vision, that means 2D notions of rotation; for hybrid models, it suggests ways
 to keep a consistent sense of “where” across modalities.
 
 [Paper](llm_papers_syllabus/RoFormer_Rotary_Position_Embedding_Su_2021.pdf)
-
+## See Also
+- Prev: [T5: Text-to-Text Transfer Transformer](05-t5-unified-text-to-text-raffel-2019.md)
+- Next: [Scaling Laws for Neural Language Models](07-scaling-laws-neural-language-models-kaplan-2020.md)

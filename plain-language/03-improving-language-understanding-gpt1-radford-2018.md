@@ -1,6 +1,9 @@
 # When Pre-Training Met Purpose: How GPT-1 Changed The Game
 
 ## The Paper
+## See Also
+- Prev: [Recurrent Neural Network Regularization](02-rnn-regularization-zaremba-2014.md)
+- Next: [BERT: Pre-training of Deep Bidirectional Transformers](04-bert-pretraining-devlin-2018.md)
 
 Improving Language Understanding by Generative Pre-Training — Alec Radford,
 Karthik Narasimhan, Tim Salimans, Ilya Sutskever (2018, OpenAI).

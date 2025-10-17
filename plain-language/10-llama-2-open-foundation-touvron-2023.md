@@ -101,4 +101,6 @@ results you can benchmark. That combination helped catalyse today’s vibrant
 open‑source ecosystem.
 
 [Paper](llm_papers_syllabus/LLaMA_2_Open_Foundation_Touvron_2023.pdf)
-
+## See Also
+- Prev: [Switch Transformers (Mixture-of-Experts)](09-switch-transformers-moe-fedus-2021.md)
+- Next: [FlashAttention](11-flashattention-fast-io-aware-dao-2022.md)
