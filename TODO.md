@@ -437,45 +437,17 @@ Tasks
 
 
 Planned upcoming instances (add as you go)
-- Week 6: FlashAttention (Dao 2022) → summaries/flashattention-fast-io-aware-dao-2022.md
-- Week 6: GPTQ (Frantar 2022) → summaries/gptq-accurate-post-training-quant-frantar-2022.md
-- Week 7: FLAN (Wei 2021) → summaries/flan-finetuned-zero-shot-wei-2021.md
-- Week 7: Emergent Abilities (Wei 2022) → summaries/emergent-abilities-llm-wei-2022.md
-- Week 7 (Added): HELM (Liang 2022) → summaries/helm-holistic-evaluation-liang-2022.md
-- Week 7 (Added): BIG-bench (Srivastava 2022) → summaries/big-bench-beyond-imitation-game-srivastava-2022.md
-- Week 8: InstructGPT (Ouyang 2022) → summaries/instructgpt-training-instructions-ouyang-2022.md
-- Week 8: Deep RL Human Preferences (Christiano 2017) → summaries/deep-rl-human-preferences-christiano-2017.md
-- Week 9: DPO (Rafailov 2023) → summaries/dpo-direct-preference-optimization-rafailov-2023.md
-- Week 9: Constitutional AI (Bai 2022) → summaries/constitutional-ai-harmlessness-bai-2022.md
-- Week 9 (Added): TruthfulQA (Lin 2021) → summaries/truthfulqa-measuring-falsehoods-lin-2021.md
-- Week 9 (Added): Measuring Faithfulness in CoT (Lanham 2023) → summaries/measuring-faithfulness-cot-lanham-2023.md
-- Week 10: Chain-of-Thought (Wei 2022) → summaries/chain-of-thought-reasoning-wei-2022.md
-- Week 10: ReAct (Yao 2022) → summaries/react-reasoning-and-acting-yao-2022.md
-- Week 10 (Added): Toolformer (Schick 2023) → summaries/toolformer-llms-use-tools-schick-2023.md
-- Week 10 (Added): Gorilla (Patil 2023) → summaries/gorilla-llm-connected-apis-patil-2023.md
-- Week 10 (Added): Flamingo (Alayrac 2022) → summaries/flamingo-visual-language-model-alayrac-2022.md
-- Week 10 (Added): LLaVA (Liu 2023) → summaries/llava-visual-instruction-tuning-liu-2023.md
-- Week 10 (Added): Kosmos-2 (Peng 2023) → summaries/kosmos-2-grounding-multimodal-peng-2023.md
-- Week 11: RAG (Lewis 2020) → summaries/rag-retrieval-augmented-generation-lewis-2020.md
-- Week 11: Lost in the Middle (Liu 2023) → summaries/lost-in-the-middle-long-context-liu-2023.md
-- Week 11 (Added): LoRA (Hu 2021) → summaries/lora-low-rank-adaptation-hu-2021.md
-- Week 11 (Added): vLLM (Kwon 2023) → summaries/vllm-pagedattention-serving-kwon-2023.md
-- Week 11 (Added): MemGPT (Wu 2023) → summaries/memgpt-llms-operating-systems-wu-2023.md
-- Week 12: Mamba (Gu & Dao 2023) → summaries/mamba-linear-time-ssm-gu-dao-2023.md
-- Week 12: RetNet (Wu 2023) → summaries/retentive-network-retnet-wu-2023.md
-- Week 12 (Added): Hyena (Poli 2023) → summaries/hyena-hierarchy-convolutional-poli-2023.md
-- Week 12 (Added): Jamba (Lieber 2024) → summaries/jamba-hybrid-transformer-mamba-lieber-2024.md
-- Extension A: Universal Adversarial Attacks (Zou 2023) → summaries/universal-adversarial-attacks-aligned-llms-zou-2023.md
-- Extension A: Scalable Poisoning (Schmid 2024) → summaries/scalable-transferable-poisoning-schmid-2024.md
-- Extension A: Security of RAG (Mouton 2023) → summaries/security-of-retrieval-augmented-generation-mouton-2023.md
-- Extension A: LLM Attack Zoo (Gao 2024) → summaries/llm-attack-zoo-categorization-gao-2024.md
+- Extension A: Universal Adversarial Attacks (Zou 2023) → summaries/universal-adversarial-attacks-aligned-llms-zou-2023.md [COMPLETED ✓]
+- Extension A: Backdoor Attacks on Language Models (Wallace 2021) → summaries/backdoor-attacks-language-models-wallace-2021.md [REPLACEMENT for Schmid 2024]
+- Extension A: PoisonedRAG (Zou 2024) → summaries/poisonedrag-knowledge-corruption-attacks-zou-2024.md [REPLACEMENT for Mouton 2023]
+- Extension A: JailbreakZoo (Chao 2024) → summaries/jailbreakzoo-survey-jailbreaking-llms-chao-2024.md [REPLACEMENT for LLM Attack Zoo]
 - Extension A (Added): Red Teaming (Perez 2022) → summaries/red-teaming-reduce-harms-perez-2022.md
-- Extension A (Added): Watermark for LLMs (Kirchenbauer 2023) → summaries/watermark-large-language-models-kirchenbauer-2023.md
-- Extension A (Added): Certified Robustness (Wang 2023) → summaries/certified-robustness-word-substitutions-wang-2023.md
+- Extension A (Added): Watermark for LLMs (Kirchenbauer 2023) → summaries/watermark-large-language-models-kirchenbauer-2023.md [COMPLETED ✓]
+- Extension A (Added): Certified Robustness (Jia 2019) → summaries/certified-robustness-word-substitutions-jia-2019.md [REPLACEMENT for Wang 2023]
 - Extension A (Added): Poisoning Instruction Tuning (Qi 2023) → summaries/poisoning-instruction-tuning-qi-2023.md
-- Extension B: Stochastic Parrots (Bender 2021) → summaries/dangers-of-stochastic-parrots-bias-bender-2021.md
-- Extension B: Measuring Bias (Bansal 2020) → summaries/measuring-mitigating-bias-grounded-language-bansal-2020.md
-- Extension B: Alignment Problem (Amodei 2016) → summaries/the-alignment-problem-safety-amodei-2016.md
+- Extension B: Stochastic Parrots (Bender 2021) → summaries/dangers-of-stochastic-parrots-bender-2021.md
+- Extension B: StereoSet (Nadeem 2020) → summaries/stereoset-measuring-stereotypical-bias-nadeem-2020.md [REPLACEMENT for Bansal 2020]
+- Extension B: Alignment Problem (Amodei 2016) → summaries/concrete-problems-ai-safety-amodei-2016.md
 - Extension B: Constitutional AI (duplicate with Week 9) — use same summary
 - Include Extension tracks after core weeks or interleave as time allows.
 
@@ -593,6 +565,88 @@ Tasks
 - [x] 10. Save final to summaries/deep-rl-human-preferences-christiano-2017.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
 - [x] 12. Optional: add "Figure Insights" if helpful.
+
+Queued Summary Tasks (from downloads, unprocessed)
+- [x] RAG — Retrieval‑Augmented Generation (Lewis, 2020)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/RAG_Retrieval_Augmented_Generation_Lewis_2020.pdf
+  - Out: summaries/rag-retrieval-augmented-generation-lewis-2020.md
+- [x] Lost in the Middle: Long Contexts (Liu, 2023)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Lost_in_the_Middle_Long_Context_Liu_2023.pdf
+  - Out: summaries/lost-in-the-middle-long-context-liu-2023.md
+- [x] LoRA: Low‑Rank Adaptation (Hu, 2021)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/LoRA_Low_Rank_Adaptation_Hu_2021.pdf
+  - Out: summaries/lora-low-rank-adaptation-hu-2021.md
+- [x] vLLM: PagedAttention Serving (Kwon, 2023)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/vLLM_PagedAttention_Serving_Kwon_2023.pdf
+  - Out: summaries/efficient-memory-management-pagedattention-vllm-kwon-2023.md
+- [x] MemGPT: LLMs as Operating Systems (Wu, 2023)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/MemGPT_LLMs_Operating_Systems_Wu_2023.pdf
+  - Out: summaries/memgpt-llms-operating-systems-wu-2023.md
+- [x] Mamba: Linear‑Time SSM (Gu & Dao, 2023)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Mamba_Linear_Time_SSM_Gu_Dao_2023.pdf
+  - Out: summaries/mamba-linear-time-sequence-modeling-gu-dao-2023.md
+- [x] RetNet: Retentive Network (Wu, 2023)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Retentive_Network_RetNet_Wu_2023.pdf
+  - Out: summaries/retentive-network-retnet-wu-2023.md
+- [x] Hyena Hierarchy (Poli, 2023)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Hyena_Hierarchy_Convolutional_Poli_2023.pdf
+  - Out: summaries/hyena-hierarchy-poli-2023.md
+- [x] Jamba: Hybrid Transformer‑Mamba (Lieber, 2024)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Jamba_Hybrid_Transformer_Mamba_Lieber_2024.pdf
+  - Out: summaries/jamba-hybrid-transformer-mamba-lieber-2024.md
+- [x] Universal Adversarial Attacks on Aligned LLMs (Zou, 2023)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Universal_Adversarial_Attacks_Aligned_LLMs_Zou_2023.pdf
+  - Out: summaries/universal-adversarial-attacks-aligned-llms-zou-2023.md
+- [ ] Backdoor Attacks on Language Models (Wallace, 2021) [REPLACEMENT for Schmid 2024]
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Backdoor_Attacks_Language_Models_Wallace_2021.pdf
+  - Out: summaries/backdoor-attacks-language-models-wallace-2021.md
+- [ ] PoisonedRAG: Knowledge Corruption Attacks to RAG (Zou, 2024) [REPLACEMENT for Mouton 2023]
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/PoisonedRAG_Knowledge_Corruption_Attacks_Zou_2024.pdf
+  - Out: summaries/poisonedrag-knowledge-corruption-attacks-zou-2024.md
+- [ ] JailbreakZoo: Survey of Jailbreaking LLMs (Chao, 2024) [REPLACEMENT for LLM Attack Zoo]
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/JailbreakZoo_Survey_Jailbreaking_LLMs_Chao_2024.pdf
+  - Out: summaries/jailbreakzoo-survey-jailbreaking-llms-chao-2024.md
+- [ ] Red Teaming to Reduce Harms (Perez, 2022)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Red_Teaming_Reduce_Harms_Perez_2022.pdf
+  - Out: summaries/red-teaming-reduce-harms-perez-2022.md
+- [x] Watermark for Large Language Models (Kirchenbauer, 2023)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Watermark_Large_Language_Models_Kirchenbauer_2023.pdf
+  - Out: summaries/watermark-large-language-models-kirchenbauer-2023.md
+- [ ] Certified Robustness to Adversarial Word Substitutions (Jia, 2019) [REPLACEMENT for Wang 2023]
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Certified_Robustness_Word_Substitutions_Jia_2019.pdf
+  - Out: summaries/certified-robustness-word-substitutions-jia-2019.md
+- [ ] Poisoning During Instruction Tuning (Qi, 2023)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Poisoning_Instruction_Tuning_Qi_2023.pdf
+  - Out: summaries/poisoning-instruction-tuning-qi-2023.md
+- [ ] Dangers of Stochastic Parrots (Bender, 2021)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Dangers_of_Stochastic_Parrots_Bias_Bender_2021.pdf
+  - Out: summaries/dangers-of-stochastic-parrots-bender-2021.md
+- [ ] StereoSet: Measuring Stereotypical Bias (Nadeem, 2020) [REPLACEMENT for Bansal 2020]
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/StereoSet_Measuring_Stereotypical_Bias_Nadeem_2020.pdf
+  - Out: summaries/stereoset-measuring-stereotypical-bias-nadeem-2020.md
+- [ ] Concrete Problems in AI Safety (Amodei, 2016)
+  - Run: repeat-prompt.md → Prompt.md
+  - PDF: llm_papers_syllabus/Concrete_Problems_in_AI_Safety_Amodei_2016.pdf
+  - Out: summaries/concrete-problems-ai-safety-amodei-2016.md
 
 Active Task Instance 019: Week 9 — Direct Preference Optimization: Your Language Model is Secretly a Reward Model (Rafailov et al., 2023)
 Context
@@ -791,3 +845,36 @@ Tasks
 - [x] 10. Save final to summaries/kosmos-2-grounding-multimodal-peng-2023.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
 - [x] 12. Optional: add "Figure Insights" if helpful.
+# Paper Link Resolution - COMPLETED ✓
+
+Resolution Summary (2025-10-17)
+- Several Extension Track papers had incorrect or non-existent arXiv IDs. After web search verification, papers were either fixed with correct links or replaced with seminal alternatives.
+
+Actions Completed
+- [x] Scalable and Transferable LLM Data Poisoning (Schmid et al., 2024)
+  - Could not locate this paper on arXiv after extensive search
+  - REPLACED with: "Backdoor Attacks on Language Models" (Wallace et al., 2021) - arXiv:2101.05809
+  - Rationale: Seminal work on backdoor attacks in NLP, foundational for the security track
+- [x] LLM Attack Zoo: Attacks and Defences (Gao et al., 2024)
+  - Could not locate paper with this exact title
+  - REPLACED with: "JailbreakZoo: Survey, Landscapes, and Horizons in Jailbreaking LLMs" (Chao et al., 2024) - arXiv:2407.01599
+  - Rationale: Comprehensive 2024 survey covering attack categorization and defenses
+- [x] Certified Robustness to Adversarial Word Substitutions (Wang et al., 2023)
+  - Wang 2023 is ACL Findings, builds on Jia 2019 foundation
+  - REPLACED with: "Certified Robustness to Adversarial Word Substitutions" (Jia et al., 2019) - arXiv:1909.00986
+  - Rationale: The foundational/seminal paper establishing certified robustness for NLP
+- [x] Measuring and Mitigating Bias in Grounded Language (Bansal et al., 2020)
+  - Could not locate this specific paper after extensive search
+  - REPLACED with: "StereoSet: Measuring Stereotypical Bias in Pretrained Language Models" (Nadeem et al., 2020) - arXiv:2004.09456
+  - Rationale: Highly-cited 2020 benchmark for measuring bias in LLMs, directly relevant to ethics track
+- [x] On the Dangers of Stochastic Parrots (Bender et al., 2021)
+  - FIXED: FAccT 2021 conference paper, not on arXiv
+  - Updated with direct ACM Digital Library link: https://dl.acm.org/doi/pdf/10.1145/3442188.3445922
+  - Status: PDF successfully downloaded and verified
+- [x] Security of Retrieval-Augmented Generation (Mouton et al., 2023)
+  - arXiv:2311.12151 resolved to robotics paper ("Teaching Robots to Build Simulations of Themselves")
+  - REPLACED with: "PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models" (Zou et al., 2024) - arXiv:2402.07867
+  - Rationale: First seminal work on knowledge corruption attacks to RAG systems; accepted to USENIX Security 2025
+  - Status: PDF successfully downloaded and verified
+
+All replacement papers successfully downloaded and verified. Script updated and tested.

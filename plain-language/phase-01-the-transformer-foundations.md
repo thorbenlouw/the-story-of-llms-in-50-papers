@@ -50,3 +50,6 @@ Once the blueprint is set, the game shifts to scale: how far can we push these
 models, and how do we spend compute wisely? Phase II shows the economics and
 engineering of making Transformers bigger, faster, and more efficient.
 
+## See Also
+- Start: [01 — Attention Is All You Need](01-attention-is-all-you-need-vaswani-2017.md)
+- End: [06 — RoFormer: Rotary Positional Embeddings](06-roformer-enhanced-transformer-su-2021.md)

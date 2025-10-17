@@ -47,3 +47,6 @@ IV turns LLMs from static talkers into active agents: think step‑by‑step, us
 tools, retrieve facts, and understand images—with grounding that lets them point
 as well as describe.
 
+## See Also
+- Start: [13 — FLAN: Instruction Tuning](13-flan-finetuned-zero-shot-wei-2021.md)
+- End: [22 — Measuring Faithfulness in Chain‑of‑Thought](22-measuring-faithfulness-cot-lanham-2023.md)

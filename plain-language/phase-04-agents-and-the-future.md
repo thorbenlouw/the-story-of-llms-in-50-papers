@@ -47,3 +47,6 @@ planning, and specialised tools to build dependable systems—and explore
 efficiency‑first architectures that stretch contexts and lower costs. The
 trajectory bends from “predict text” toward “solve tasks”.
 
+## See Also
+- Start: [23 — Chain‑of‑Thought Prompting](23-chain-of-thought-reasoning-wei-2022.md)
+- End (so far): [29 — Kosmos‑2: Grounded Multimodal](29-kosmos-2-grounding-multimodal-peng-2023.md)

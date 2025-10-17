@@ -37,12 +37,12 @@ PAPER_LIST=(
     "Retentive_Network_RetNet|2307.08621|Wu_2023"
     # --- Extension Track A: Security & Attacks ---
     "Universal_Adversarial_Attacks_Aligned_LLMs|2307.15043|Zou_2023"
-    "Scalable_Transferable_Poisoning|2405.02102|Schmid_2024"
-    "Security_of_Retrieval_Augmented_Generation|2311.12151|Mouton_2023"
-    "LLM_Attack_Zoo_Categorization|2404.14819|Gao_2024"
+    "Backdoor_Attacks_Language_Models|2101.05809|Wallace_2021"
+    "PoisonedRAG_Knowledge_Corruption_Attacks|2402.07867|Zou_2024"
+    "JailbreakZoo_Survey_Jailbreaking_LLMs|2407.01599|Chao_2024"
     # --- Extension Track B: Ethics & Bias ---
-    "Dangers_of_Stochastic_Parrots_Bias|2101.00027|Bender_2021"
-    "Measuring_Mitigating_Bias_Grounded_Language|2005.14167|Bansal_2020"
+    "Dangers_of_Stochastic_Parrots_Bias|https://dl.acm.org/doi/pdf/10.1145/3442188.3445922|Bender_2021"
+    "StereoSet_Measuring_Stereotypical_Bias|2004.09456|Nadeem_2020"
     "The_Alignment_Problem_Safety|1606.06565|Amodei_2016"
     "Constitutional_AI_Harmlessness_CAI|2212.08073|Bai_2022"
     # --- Week 7: Evaluation & Benchmarking (Additions) ---
@@ -68,7 +68,7 @@ PAPER_LIST=(
     # --- Extension A: Security Defenses (Additions) ---
     "Red_Teaming_Reduce_Harms|2209.07858|Perez_2022"
     "Watermark_Large_Language_Models|2301.10226|Kirchenbauer_2023"
-    "Certified_Robustness_Word_Substitutions|2306.11848|Wang_2023"
+    "Certified_Robustness_Word_Substitutions|1909.00986|Jia_2019"
     "Poisoning_Instruction_Tuning|2305.00944|Qi_2023"
 )
 
@@ -80,9 +80,9 @@ download_paper() {
     local filename="${DOWNLOAD_DIR}/${full_name}_${author_year}.pdf"
     local url=""
 
-    # 1. Check if the file already exists
-    if [ -f "$filename" ]; then
-        echo "-> [SKIP] File already exists: $filename"
+    # 1. Check if the file already exists (unless FORCE=1)
+    if [ -f "$filename" ] && [ "${FORCE:-0}" != "1" ]; then
+        echo "-> [SKIP] File already exists: $filename (set FORCE=1 to re-download)"
         return 0
     fi
 
@@ -119,4 +119,3 @@ done
 echo "--------------------------------------------------------"
 echo "Download process complete."
 echo "To view the papers, navigate to the /$DOWNLOAD_DIR directory."
-

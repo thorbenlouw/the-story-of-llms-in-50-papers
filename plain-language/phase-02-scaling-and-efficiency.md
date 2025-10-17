@@ -46,3 +46,6 @@ Scale produces power, but not purpose. Phase III tackles alignment and
 evaluation: how to make these models helpful, harmless, and honest, and how to
 measure progress across many axes—not just a single benchmark.
 
+## See Also
+- Start: [07 — Scaling Laws for Language Models](07-scaling-laws-neural-language-models-kaplan-2020.md)
+- End: [12 — GPTQ: Accurate Post‑Training Quantisation](12-gptq-accurate-post-training-quant-frantar-2022.md)
