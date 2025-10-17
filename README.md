@@ -6,7 +6,27 @@ Follows the story of LLMs in 50 seminal papers from 2017 to 2025, with (LLM-gene
 
 I had an idea today to develop a course/super boring novel/series of blog posts/podcast about the innovations since 2017 that help us go from the state of the art at the time to what we have today, and a glimpse of what research is happening in LLMs and might affect the future. It uses 50 seminal academic papers that cover this revolution, but is designed for the **tech-worker lay person**—someone who works in or around technology, is curious about how large language models (LLMs) work, and wants to understand the ideas that have driven today’s AI revolution. Everything is presented in **plain English**, with relatable examples and real-world parallels, rather than mathematical detail. The aim is to focus on the **main concepts and breakthroughs** that have shaped the extraordinary technological changes we’re all living through.
 
-> COURSE IMPLEMENTATION NOTE Of course I haven't done this myself. After using Gemini and ChatGPT to refine the course "syllabus", and have Claude Code create a script which downloads the papers, I had Gemini create some great prompts for a sub-agent to systematically summarise each paper and validate its summaries. Then I used an orchestrator agent in RooCode to run the subtasks for each of the papers and summaries it. Then I've converted the detailed summaries into shorter, accessible prose. The agents are still busy running -- 17 papers down, 33 to go.
+## Plain‑Language Series
+
+- Browse the ordered, plain‑English explainers for each paper: plain-language/README.md
+
+Quick preview (first six):
+
+- [01 — Attention Is All You Need](plain-language/01-attention-is-all-you-need-vaswani-2017.md) — Transformer
+  and self‑attention unlock parallelism and long‑range context.
+- [02 — Recurrent Neural Network Regularization](plain-language/02-rnn-regularization-zaremba-2014.md) — RNN
+  regularisation highlights limits before the Transformer era.
+- [03 — Improving Language Understanding (GPT‑1)](plain-language/03-improving-language-understanding-gpt1-radford-2018.md) —
+  Pre‑train on next‑token prediction, then fine‑tune for tasks.
+- [04 — BERT: Bidirectional Pre‑Training](plain-language/04-bert-pretraining-devlin-2018.md) — Masked language
+  modelling for deep bidirectional understanding.
+- [05 — T5: Text‑to‑Text Transfer](plain-language/05-t5-unified-text-to-text-raffel-2019.md) — Unifies tasks as
+  text‑to‑text for a single training interface.
+- [06 — RoFormer: Rotary Positional Embeddings](plain-language/06-roformer-enhanced-transformer-su-2021.md) — Position as
+  rotation for better long‑context behaviour and extrapolation.
+
+> *** COURSE IMPLEMENTATION NOTE*** 
+> Of course I haven't done this myself. After using Gemini and ChatGPT to refine the course "syllabus", and have Claude Code create a script which downloads the papers, I had Gemini create some great prompts for a sub-agent to systematically summarise each paper and validate its summaries. Then I used an orchestrator agent in RooCode to run the subtasks for each of the papers and summaries it. Then I've converted the detailed summaries into shorter, accessible prose. The agents are still busy running -- 17 papers down, 33 to go.
 
 I've also played with a dialog/novel format that might not work out:
 
