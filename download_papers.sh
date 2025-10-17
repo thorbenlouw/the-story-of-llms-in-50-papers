@@ -37,7 +37,7 @@ PAPER_LIST=(
     "Retentive_Network_RetNet|2307.08621|Wu_2023"
     # --- Extension Track A: Security & Attacks ---
     "Universal_Adversarial_Attacks_Aligned_LLMs|2307.15043|Zou_2023"
-    "Backdoor_Attacks_Language_Models|2101.05809|Wallace_2021"
+    "Breaking_Down_the_Defenses_Attacks_LLMs|https://arxiv.org/pdf/2403.04786|Survey_2024"
     "PoisonedRAG_Knowledge_Corruption_Attacks|2402.07867|Zou_2024"
     "JailbreakZoo_Survey_Jailbreaking_LLMs|2407.01599|Chao_2024"
     # --- Extension Track B: Ethics & Bias ---

@@ -607,10 +607,10 @@ Queued Summary Tasks (from downloads, unprocessed)
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/Universal_Adversarial_Attacks_Aligned_LLMs_Zou_2023.pdf
   - Out: summaries/universal-adversarial-attacks-aligned-llms-zou-2023.md
-- [ ] Backdoor Attacks on Language Models (Wallace, 2021) [REPLACEMENT for Schmid 2024]
+- [x] Breaking Down the Defenses: A Comparative Survey of Attacks on Large Language Models (2024) [REPLACEMENT for Wallace 2021]
   - Run: repeat-prompt.md → Prompt.md
-  - PDF: llm_papers_syllabus/Backdoor_Attacks_Language_Models_Wallace_2021.pdf
-  - Out: summaries/backdoor-attacks-language-models-wallace-2021.md
+  - PDF: llm_papers_syllabus/Breaking_Down_the_Defenses_Attacks_LLMs_Survey_2024.pdf
+  - Out: summaries/breaking-down-the-defenses-attacks-llms-2024.md
 - [ ] PoisonedRAG: Knowledge Corruption Attacks to RAG (Zou, 2024) [REPLACEMENT for Mouton 2023]
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/PoisonedRAG_Knowledge_Corruption_Attacks_Zou_2024.pdf

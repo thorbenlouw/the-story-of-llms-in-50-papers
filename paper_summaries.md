@@ -102,8 +102,8 @@ Here is a comprehensive list of the 50 papers covered in the course and its exte
 
 * **39. Universal and Transferable Adversarial Attacks on Aligned LLMs** (Zou et al., 2023)
     * **Main Idea:** Demonstrated that a single, optimized string of characters can act as a universal **"jailbreak"** suffix, causing multiple different aligned LLMs to generate harmful or prohibited content when appended to a prompt.
-* **40. Backdoor Attacks on Language Models** (Wallace et al., 2021)
-    * **Main Idea:** Demonstrated that language models are vulnerable to **backdoor attacks** where adversaries can inject triggers during training that cause targeted misbehavior at test time, compromising model security even after deployment.
+* **40. Breaking Down the Defenses: A Comparative Survey of Attacks on Large Language Models** (2024)
+    * **Main Idea:** Provides a comprehensive, comparative **survey** of attack surfaces for LLMs — including data poisoning and backdoors, prompt injection, jailbreaks/evasion, retrieval attacks, and inference-time exploits — and organizes findings into a consistent taxonomy to compare methods and defenses across papers.
 * **41. PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation** (Zou et al., 2024)
     * **Main Idea:** Introduced the first **knowledge corruption attack** on RAG systems, showing that injecting as few as five malicious texts into a knowledge database of millions can achieve a 90% attack success rate, inducing LLMs to generate attacker-chosen answers.
 * **42. JailbreakZoo: Survey, Landscapes, and Horizons in Jailbreaking LLMs** (Chao et al., 2024)
