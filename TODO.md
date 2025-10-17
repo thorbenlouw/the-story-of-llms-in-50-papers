@@ -650,10 +650,11 @@ Queued Summary Tasks (from downloads, unprocessed)
   - PDF: llm_papers_syllabus/StereoSet_Measuring_Stereotypical_Bias_Nadeem_2020.pdf
   - Out: summaries/stereoset-measuring-stereotypical-bias-nadeem-2020.md
   - Notes: work/notes/stereoset-measuring-stereotypical-bias-nadeem-2020.md
-- [ ] Concrete Problems in AI Safety (Amodei, 2016)
+- [x] Concrete Problems in AI Safety (Amodei, 2016)
   - Run: repeat-prompt.md → Prompt.md
-  - PDF: llm_papers_syllabus/Concrete_Problems_in_AI_Safety_Amodei_2016.pdf
+  - PDF: llm_papers_syllabus/The_Alignment_Problem_Safety_Amodei_2016.pdf
   - Out: summaries/concrete-problems-ai-safety-amodei-2016.md
+  - Notes: work/notes/concrete-problems-ai-safety-amodei-2016.md
 
 Active Task Instance 019: Week 9 — Direct Preference Optimization: Your Language Model is Secretly a Reward Model (Rafailov et al., 2023)
 Context
