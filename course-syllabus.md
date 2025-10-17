@@ -60,6 +60,3 @@ This module examines the origins of bias in training data, methods for evaluatio
 | **Measuring and Mitigating $\text{Bias}$ in Grounded Language** (Bansal et al., 2020) | **Bias Measurement:** Focuses on methods for quantitatively measuring and characterizing social bias ($\text{gender}$, $\text{race}$) embedded in model behavior and outputs. | [https://arxiv.org/abs/2005.14167](https://arxiv.org/abs/2005.14167) |
 | **The Alignment Problem** (Amodei et al., 2016) | **Safety/Alignment Foundation:** Anthropic's foundational work outlining the "alignment problem" (the difficulty in ensuring that AI systems act according to human intentions) before the $\text{LLM}$ boom, setting the stage for $\text{RLHF}$. | [https://arxiv.org/abs/1606.06565](https://arxiv.org/abs/1606.06565) |
 | **Constitutional AI: Harmlessness from $\text{AI}$ Feedback** (Bai et al., 2022) | **Advanced Alignment:** Introduces Constitutional AI ($\text{CAI}$) as an alternative to pure $\text{RLHF}$, demonstrating how to align models based on a set of written principles rather than solely human preference labels. | [https://arxiv.org/abs/2212.08073](https://arxiv.org/abs/2212.08073) |
-
-***
-The papers for your two new extension tracks are now identified. We can add these to the `download_papers.sh` script if you'd like to update that file.

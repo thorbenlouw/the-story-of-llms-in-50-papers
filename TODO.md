@@ -508,6 +508,27 @@ Tasks
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
 - [x] 12. Optional: add "Figure Insights" (aggregate category plots; prompt sensitivity ablations).
 
+Active Task Instance 022: Week 9 — Measuring Faithfulness in Chain-of-Thought Reasoning (Lanham et al., 2023)
+Context
+- Syllabus entry: Week 9 — Reward-Free Alignment & Safety (Phase III)
+- Key Topics & Labs: Direct Preference Optimization (DPO) vs. RLHF. The mathematical derivation of DPO as an unrolled objective. Safety, toxicity mitigation, and transparency. Factuality & CoT-Faithfulness: Measuring truthfulness and reasoning faithfulness. Lab: Fine-tuning an aligned model using DPO.
+- PDF path: llm_papers_syllabus/Measuring_Faithfulness_CoT_Lanham_2023.pdf
+- Output path: summaries/measuring-faithfulness-cot-lanham-2023.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 9, Additional Reading 4): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Measuring_Faithfulness_CoT_Lanham_2023.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 9.
+- [x] 4. Create notes file (optional - skipped for efficient workflow).
+- [x] 5. Skim and outline inline during drafting from PDF pages 1-14.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Reward-Free Alignment & Safety" and CoT-faithfulness measurement explicitly; connect to DPO lab and Week 9 themes.
+- [x] 9. Claims and consistency check against the PDF text; verified key claims from pages 1-8 with section/figure references (four intervention tests, AOC metrics, inverse scaling, task variation, filler tokens, paraphrasing).
+- [x] 10. Save final to summaries/measuring-faithfulness-cot-lanham-2023.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: referenced key figures (Figures 1, 3-8, Table 2) throughout summary with page numbers.
+
 Active Task Instance 021: Week 9 — TruthfulQA: Measuring How Models Mimic Human Falsehoods (Lin et al., 2021)
 Context
 - Syllabus entry: Week 9 — Reward-Free Alignment & Safety (Phase III)

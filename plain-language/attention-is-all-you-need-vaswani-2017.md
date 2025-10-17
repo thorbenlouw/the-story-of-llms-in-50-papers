@@ -6,6 +6,8 @@ Attention Is All You Need — Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob
 Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin (2017,
 Google Brain/Google Research).
 
+This is the "paper that launched thousand models" and introduced an architecture called the Transformer, which was a breakthrough moment for allowing our language models to scale. 
+
 ## Before the Breakthrough
 
 Before 2017, teaching machines to understand and generate language felt like

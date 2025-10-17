@@ -2,7 +2,7 @@ Here is a comprehensive list of the 50 papers covered in the course and its exte
 
 ---
 
-### Phase I: The Transformer Foundations (Weeks 1-3)
+### Phase I: The Transformer Foundations
 
 * **1. Attention Is All You Need** (Vaswani et al., 2017)
     * **Main Idea:** Introduced the **Transformer architecture**, completely replacing sequential Recurrent Neural Networks (RNNs) with a parallelizable **self-attention mechanism**. This solved the long-range dependency problem and became the foundation for all modern LLMs.
@@ -19,7 +19,7 @@ Here is a comprehensive list of the 50 papers covered in the course and its exte
 
 ---
 
-### Phase II: Scaling and Efficiency (Weeks 4-6)
+### Phase II: Scaling and Efficiency
 
 * **7. Scaling Laws for Neural Language Models** (Kaplan et al., 2020)
     * **Main Idea:** Empirically demonstrated that an LLM's performance improves in a predictable, power-law relationship as you scale up model size, dataset size, and compute budget. This provided a scientific justification for building massive models.
@@ -36,7 +36,7 @@ Here is a comprehensive list of the 50 papers covered in the course and its exte
 
 ---
 
-### Phase III: Alignment and Generalization (Weeks 7-9)
+### Phase III: Alignment and Generalization
 
 * **13. Finetuned Language Models are Zero-Shot Learners** (Wei et al., 2021)
     * **Main Idea:** Introduced **instruction fine-tuning** (with FLAN), showing that training an LLM on a massive collection of tasks described via natural language instructions significantly improves its ability to perform new, unseen tasks without any examples (zero-shot).
@@ -61,7 +61,7 @@ Here is a comprehensive list of the 50 papers covered in the course and its exte
 
 ---
 
-### Phase IV: Deployment, Agents, and The Future (Weeks 10-12)
+### Phase IV: Deployment, Agents, and The Future
 
 * **23. Chain-of-Thought Prompting Elicits Reasoning in Large Language Models** (Wei et al., 2022)
     * **Main Idea:** Discovered that simply prompting an LLM to "think step-by-step" before giving an answer dramatically improves its performance on complex arithmetic, commonsense, and symbolic reasoning tasks.
