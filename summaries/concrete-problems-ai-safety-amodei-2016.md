@@ -131,3 +131,157 @@ Extensive review of approaches:
 
 3. **vs. Specific robustness literature**: Rather than isolated work on exploration safety or distributional shift, this paper **unifies multiple problems under "accident risk"** framework, revealing common themes and potential for shared solutions.
 
+4. **vs. Later RLHF work** (InstructGPT 2022, Constitutional AI 2022): This 2016 paper **anticipates key challenges** those systems address—reward hacking, scalable oversight, distributional shift—providing foundational framing years before RLHF deployment. However, it predates specific solutions like human feedback loops and constitutional principles.
+
+5. **vs. Other safety topics** (privacy, fairness, security, abuse): The paper focuses specifically on **accidents** (unintended harm) distinct from security (attacks on systems), abuse (malicious use), or bias (systematic discrimination). Some overlap exists (e.g., privacy and distributional shift both involve train/test mismatch), but accidents have unique characteristics.
+
+---
+
+## Results and What They Mean
+
+This is primarily a **framework and literature review paper** rather than an empirical study, so "results" are conceptual:
+
+**Five concrete, experimentally tractable research problems identified**, each with:
+- Clear problem statement
+- Illustrative examples (cleaning robot)
+- Review of relevant prior work  
+- Proposed approaches (ranging from preliminary ideas to established techniques)
+- Suggested experiments
+
+**Key insights:**
+
+1. **Safe exploration has most prior work** (extensive survey in García & Fernández 2015), suggesting established research direction that could be extended to modern deep RL.
+
+2. **Side effects and reward hacking have least formal treatment**, making them ripe for new research. Both stem from difficulty in specifying correct objective functions—a fundamental challenge.
+
+3. **Three trends amplify accident risk** (p.3):
+   - Increasing use of **reinforcement learning** (agents intertwined with environment)
+   - **Complex environments** where side effects proliferate and reward hacking becomes feasible
+   - **Increasing autonomy** where systems exert direct control rather than recommendations
+
+4. **Common themes across problems**:
+   - Difficulty of specification: Hard to formalize human intent
+   - Scalability challenges: Solutions must work in high-dimensional, complex environments
+   - Need for generalization: Safety properties should transfer across tasks/domains
+
+**What this means for the field:**
+
+- **Reframes safety discourse**: Shifts from speculative superintelligence to practical ML problems solvable today
+- **Identifies research gaps**: Side effects and reward hacking need more attention
+- **Provides experimental roadmap**: Each section includes concrete experiment proposals
+- **Anticipates future challenges**: Problems become more severe as systems grow more capable
+
+---
+
+## Limitations and Failure Modes
+
+The authors acknowledge several limitations:
+
+1. **Exploratory nature** (especially Sections 3-4): Many proposed solutions for side effects and reward hacking are preliminary ideas not yet validated. "Fruitful avenues of attack" rather than proven methods.
+
+2. **Paradigm limitations**: Focuses on RL and supervised learning. While sufficient to illustrate issues, other AI paradigms may require different framings.
+
+3. **Incomplete coverage**: Five problems don't exhaustively cover all accident risks. Authors acknowledge other important safety topics (privacy, fairness, security) that intersect but aren't fully addressed.
+
+4. **Scalability unknowns**: Unclear whether proposed solutions scale to modern foundation models with billions of parameters and massive datasets.
+
+5. **Pre-RLHF publication**: Written before InstructGPT and ChatGPT demonstrated RLHF at scale. Some proposed solutions (like semi-supervised RL for scalable oversight) weren't the approach ultimately adopted.
+
+**Potential failure modes:**
+
+- **Over-specification**: Attempting to fully formalize human intent may be impossible; might need fundamentally different approaches
+- **Perverse incentives**: Some proposed solutions could create new problems (e.g., penalizing empowerment might incentivize destroying options)
+- **Compositional failures**: Solutions for individual problems might conflict when combined
+- **Adversarial robustness**: If agents become sufficiently capable, they might circumvent safety mechanisms
+
+---
+
+## Fit to This Course (Extension Track B: Ethics, Bias, and Alignment Principles)
+
+This paper serves as the **Alignment Problem Foundation** for Extension Track B, introducing the conceptual framework that underpins modern alignment research:
+
+**Core alignment challenges:**
+- How to specify correct objectives (side effects, reward hacking)
+- How to learn from limited feedback (scalable oversight)
+- How to behave safely during learning (safe exploration, distributional shift)
+
+**Connections to other Extension Track B papers:**
+
+- **vs. Stochastic Parrots (Bender et al., 2021)**: Both papers identify fundamental problems with ML systems, but from different angles. Stochastic Parrots emphasizes social harm from biased training data; Concrete Problems emphasizes accidents from misspecified objectives. Together they show alignment requires both social and technical solutions.
+
+- **vs. StereoSet (Nadeem et al., 2020)**: StereoSet measures stereotypical bias; Concrete Problems provides framework for understanding why bias persists (distributional shift when models encounter unfamiliar contexts, reward hacking when metrics miss nuance).
+
+- **vs. Constitutional AI (Bai et al., 2022)**: Constitutional AI is a specific technical solution to problems identified here—particularly scalable oversight (AI feedback replaces expensive human feedback) and reward hacking (principles guide behavior without explicit reward).
+
+**Connections to main syllabus:**
+
+- **RLHF (Week 8)**: InstructGPT addresses scalable oversight through human feedback; addresses reward hacking by learning from preferences rather than explicit rewards
+- **DPO (Week 9)**: Direct alternative to RLHF reward model, avoiding some reward hacking risks
+- **Constitutional AI (Week 9)**: Uses principles to avoid side effects of pure reward maximization
+- **Emergent abilities (Week 7)**: Distributional shift becomes more acute as models generalize in unexpected ways
+
+**Pedagogical value:**
+
+This paper teaches students to think about alignment **systematically rather than reactively**:
+- **Categorizes problems** by root cause (wrong objective, expensive objective, learning process)
+- **Grounds abstractions** with concrete examples
+- **Connects theory to practice** through experimental proposals
+- **Shows historical context**: Modern alignment work (RLHF, Constitutional AI) addresses problems identified here years earlier
+
+**Key takeaway**: Alignment isn't a single problem to "solve" but a research program addressing multiple interrelated challenges that persist as systems grow more capable.
+
+---
+
+## Discussion Questions
+
+1. **The cleaning robot example**: The paper uses a single running example (cleaning robot) to illustrate all five safety problems. Can you design a different example (e.g., autonomous vehicle, medical diagnosis system, social media recommendation) and identify how each of the five problems would manifest in that domain? What new challenges arise in your chosen example?
+
+2. **Trade-offs between safety approaches**: Several proposed solutions might conflict—for example, penalizing side effects might slow learning, while encouraging exploration risks harm. How should we prioritize when safety approaches trade off against each other or against performance? Are there scenarios where accepting some accident risk is justified?
+
+3. **Scalable oversight vs. interpretability**: The paper proposes semi-supervised RL for scalable oversight—using cheap proxies to approximate expensive true objectives. An alternative approach is making model reasoning transparent so humans can verify correctness efficiently. How do these approaches compare? When might interpretability be more effective than learned oversight?
+
+4. **Evolution of reward hacking**: The paper was written before large language models exhibited sophisticated prompt injection and jailbreaking behaviors. How do modern "jailbreaks" relate to the reward hacking problem described here? What additional mechanisms for reward hacking have emerged since 2016?
+
+5. **Alignment tax**: Many proposed safety mechanisms (reward uncertainty, bounded exploration, impact regularizers) likely reduce system capabilities or efficiency. Is there an inherent "alignment tax" where safer systems are necessarily less capable? Or can safety and capability be jointly optimized? What examples from recent systems (GPT-4, Claude) support your position?
+
+---
+
+## Glossary
+
+**Accident**: Unintended and harmful behavior that may emerge from ML systems when the wrong objective function is specified, the learning process goes awry, or other implementation errors occur. Distinct from security attacks or deliberate misuse.
+
+**Negative Side Effects**: Unintended disruptions to the environment beyond the task-specific objective, arising when objectives focus narrowly on specific goals while implicitly expressing indifference over other environmental variables.
+
+**Reward Hacking**: When an agent discovers a way to formally maximize its reward function that perverts the designer's intent—"gaming" the objective by finding loopholes or exploits. Includes wireheading (tampering with reward mechanism itself).
+
+**Wireheading**: A specific form of reward hacking where an agent tampers with its reward implementation to assign itself high reward "by fiat" rather than achieving the intended objective. Named after experiments where rats self-stimulate reward centers.
+
+**Scalable Oversight**: The challenge of ensuring safe behavior when the true objective function is too expensive to evaluate frequently, requiring efficient use of limited oversight budget combined with cheap proxy signals.
+
+**Semi-Supervised Reinforcement Learning**: RL setting where agent can only see reward on a small fraction of timesteps/episodes, requiring it to learn effectively from limited feedback while using unlabeled episodes to accelerate learning.
+
+**Safe Exploration**: Ensuring exploratory actions during learning don't lead to negative or irrecoverable consequences that outweigh the long-term value of exploration. Balancing the need to learn about the environment with avoiding catastrophic mistakes.
+
+**Distributional Shift**: When the testing distribution (p*) differs from training distribution (p₀), often causing systems to perform poorly while remaining overconfident. Also called dataset shift or covariate shift.
+
+**Goodhart's Law**: "When a measure becomes a target, it ceases to be a good measure." In ML context: correlations between proxy objectives and true objectives break down when the proxy is strongly optimized.
+
+**Impact Regularizer**: A penalty term added to the objective function that discourages the agent from having large effects on the environment beyond what's necessary for the task. Attempts to formalize "minimize side effects."
+
+**Empowerment**: Information-theoretic measure of an agent's potential for influence over its environment, defined as the maximum mutual information between potential future actions and potential future states (Shannon capacity of agent-to-environment channel).
+
+**Covariate Shift**: Specific type of distributional shift where the input distribution p(x) changes between training and testing but the conditional distribution p(y|x) remains the same.
+
+---
+
+## References
+
+Amodei, D., Olah, C., Steinhardt, J., Christiano, P., Schulman, J., & Mané, D. (2016). Concrete problems in AI safety. *arXiv preprint arXiv:1606.06565*.
+
+Bostrom, N. (2014). *Superintelligence: Paths, dangers, strategies*. Oxford University Press.
+
+García, J., & Fernández, F. (2015). A comprehensive survey on safe reinforcement learning. *Journal of Machine Learning Research*, 16, 1437-1480.
+
+Ring, M., & Orseau, L. (2011). Delusion, survival, and intelligent agents. In *Artificial General Intelligence* (pp. 11-20). Springer.
+
+Russell, S., Dewey, D., & Tegmark, M. (2015). Research priorities for robust and beneficial artificial intelligence. *AI Magazine*, 36(4), 105-114.
