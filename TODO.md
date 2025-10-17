@@ -640,14 +640,16 @@ Queued Summary Tasks (from downloads, unprocessed)
   - PDF: llm_papers_syllabus/Poisoning_Instruction_Tuning_Qi_2023.pdf
   - Out: summaries/poisoning-instruction-tuning-qi-2023.md
   - Notes: work/notes/poisoning-instruction-tuning-qi-2023.md
-- [ ] Dangers of Stochastic Parrots (Bender, 2021)
+- [x] Dangers of Stochastic Parrots (Bender, 2021)
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/Dangers_of_Stochastic_Parrots_Bias_Bender_2021.pdf
   - Out: summaries/dangers-of-stochastic-parrots-bender-2021.md
-- [ ] StereoSet: Measuring Stereotypical Bias (Nadeem, 2020) [REPLACEMENT for Bansal 2020]
+  - Notes: work/notes/dangers-of-stochastic-parrots-bender-2021.md
+- [x] StereoSet: Measuring Stereotypical Bias (Nadeem, 2020) [REPLACEMENT for Bansal 2020]
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/StereoSet_Measuring_Stereotypical_Bias_Nadeem_2020.pdf
   - Out: summaries/stereoset-measuring-stereotypical-bias-nadeem-2020.md
+  - Notes: work/notes/stereoset-measuring-stereotypical-bias-nadeem-2020.md
 - [ ] Concrete Problems in AI Safety (Amodei, 2016)
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/Concrete_Problems_in_AI_Safety_Amodei_2016.pdf
