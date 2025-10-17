@@ -15,7 +15,7 @@ Inputs (provide or derive before running)
 - KEY_TOPICS_AND_LABS (copy from [course-syllabus.md](course-syllabus.md))
 - OUTPUT_SLUG (slugified title + lead author + year, e.g., attention-is-all-you-need-vaswani-2017)
 - OUTPUT_PATH (e.g., summaries/attention-is-all-you-need-vaswani-2017.md)
-- NOTES_PATH (optional, e.g., work/notes/attention-is-all-you-need-vaswani-2017.md)
+- NOTES_PATH (required; always create, e.g., work/notes/attention-is-all-you-need-vaswani-2017.md)
 
 Context convention
 - Consult [course-syllabus.md](course-syllabus.md) for week, section, and “Key Topics & Labs”.
@@ -56,7 +56,7 @@ Inputs
   - Key Topics & Labs (verbatim from syllabus): {KEY_TOPICS_AND_LABS}
 - Output
   - Output path: {OUTPUT_PATH}
-  - Notes path (optional): {NOTES_PATH}
+  - Notes path: {NOTES_PATH}
 
 Output format (use this exact section ordering and headings)
 1) Title and citation
@@ -76,7 +76,8 @@ Output format (use this exact section ordering and headings)
 
 Method
 - Quickly skim Abstract, Introduction, Method Overview, Conclusion; then scan Experiments and Ablations.
-- Draft a 10–12 bullet outline before writing.
+- Create the notes file at {NOTES_PATH} with sections: Key contributions, Method sketch, Prior work contrast, Notable results, Limitations.
+- Draft a 10–12 bullet outline in the notes file before writing.
 - Write to the Output format headings.
 - Include short quotes or page/section hints for 5–8 important claims to ensure fidelity (e.g., “Sec 3.2 shows…”, “Table 1 reports…”).
 - Keep focus on core ideas and course alignment; do not reproduce figure layouts.
@@ -88,8 +89,10 @@ Constraints and fidelity
 
 End-of-run actions
 - Save the summary to {OUTPUT_PATH}.
+- Save the notes to {NOTES_PATH}.
 - Update [TODO.md](TODO.md): mark completed steps [x] for the current paper’s task instance, and add any follow-ups.
 - If figures were necessary for understanding, add a short “Figure Insights” subsection with figure numbers only.
+- Also add any new Glossary items to the top-level [Glossary.md](Glossary.md)
 
 Quality checklist (execute before saving)
 - Length near 1500 words; all required sections present
@@ -99,7 +102,8 @@ Quality checklist (execute before saving)
 - 5–8 claim checks with page/section hints (or quotes) completed
 - Course fit explicitly references week and “Key Topics & Labs”
 - Prior work contrasts (1–3) are specific and accurate
-- File saved at OUTPUT_PATH; tasks updated in [TODO.md](TODO.md)
+- Notes file present at {NOTES_PATH} with the outline and section bullets
+- File saved at {OUTPUT_PATH}; tasks updated in [TODO.md](TODO.md)
 
 ---
 
@@ -107,7 +111,7 @@ Operator steps (for the agent, before using the template)
 1) Identify the paper and confirm PDF_PATH exists under [llm_papers_syllabus](llm_papers_syllabus).
 2) Extract WEEK, COURSE_SECTION, and KEY_TOPICS_AND_LABS from [course-syllabus.md](course-syllabus.md).
 3) Derive OUTPUT_SLUG (lowercase, hyphens, append lead author surname and year).
-4) Set OUTPUT_PATH to summaries/{OUTPUT_SLUG}.md; create NOTES_PATH if desired at work/notes/{OUTPUT_SLUG}.md.
+4) Set OUTPUT_PATH to summaries/{OUTPUT_SLUG}.md; set NOTES_PATH to work/notes/{OUTPUT_SLUG}.md and create it.
 5) Run the template above with all variables filled.
 6) Perform the Quality checklist.
 7) Save and mark tasks in [TODO.md](TODO.md).

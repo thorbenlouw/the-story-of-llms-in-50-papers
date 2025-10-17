@@ -80,3 +80,38 @@ next paper to keep you oriented as you read through the series.
   multimodal chat via a lightweight visual adapter.
 - [29 — Kosmos‑2: Grounded Multimodal](29-kosmos-2-grounding-multimodal-peng-2023.md) — From “see and tell” to
   “see and point” with spatial grounding tokens.
+
+- [30 — RAG: Retrieval‑Augmented Generation](30-rag-retrieval-augmented-generation-lewis-2020.md) — Ground answers
+  with retrieved evidence; updatable knowledge and provenance.
+- [31 — Lost in the Middle](31-lost-in-the-middle-long-context-liu-2023.md) — Long contexts under‑use the
+  middle; retrieval and formatting still matter.
+- [32 — LoRA: Low‑Rank Adaptation](32-lora-low-rank-adaptation-hu-2021.md) — Parameter‑efficient fine‑tuning via
+  low‑rank adapters; cheap, modular skills.
+- [33 — PagedAttention (vLLM)](33-efficient-memory-management-pagedattention-vllm-kwon-2023.md) — OS‑style paging
+  for KV cache; higher throughput on the same GPUs.
+- [34 — MemGPT](34-memgpt-llms-operating-systems-wu-2023.md) — Structured memories and routines; models manage
+  their own context across long tasks.
+- [35 — Mamba](35-mamba-linear-time-sequence-modeling-gu-dao-2023.md) — Linear‑time SSM backbone; long contexts
+  with lower cost.
+- [36 — Retentive Network (RetNet)](36-retentive-network-retnet-wu-2023.md) — Dual‑mode retention for parallel
+  training and cheap inference.
+- [37 — Hyena Hierarchy](37-hyena-hierarchy-poli-2023.md) — Long‑range mixing via fast convolutions; efficient
+  alternatives to attention.
+- [38 — Jamba (Hybrid Transformer‑Mamba)](38-jamba-hybrid-transformer-mamba-lieber-2024.md) — Hybrid layers combine
+  strengths for performance and efficiency at scale.
+- [39 — Universal Attacks on Aligned LLMs](39-universal-adversarial-attacks-aligned-llms-zou-2023.md) — Transferable
+  jailbreak suffixes break safety across models.
+- [40 — Breaking Down the Defences](40-breaking-down-the-defenses-attacks-llms-2024.md) — Survey of LLM attacks;
+  system‑level defence priorities.
+- [41 — PoisonedRAG](41-poisonedrag-knowledge-corruption-attacks-zou-2024.md) — Small corpus poisons steer RAG;
+  secure ingestion and retrieval.
+- [42 — JailbreakZoo](42-jailbreakzoo-survey-jailbreaking-llms-chao-2024.md) — Taxonomy and benchmarks for
+  jailbreaks; measure and harden safety.
+- [43 — Red Teaming](43-red-teaming-reduce-harms-perez-2022.md) — Structured adversarial testing to find and fix
+  harms before release.
+- [44 — A Watermark for LLMs](44-watermark-large-language-models-kirchenbauer-2023.md) — Lightweight statistical
+  marks enable post‑hoc detection and provenance.
+- [45 — Certified Robustness to Word Substitutions](45-certified-robustness-word-substitutions-jia-2019.md) —
+  Provable guarantees under word‑swap attacks.
+- [46 — Poisoning During Instruction Tuning](46-poisoning-instruction-tuning-qi-2023.md) — Small, targeted poisons
+  bias alignment; lock down the data pipeline.

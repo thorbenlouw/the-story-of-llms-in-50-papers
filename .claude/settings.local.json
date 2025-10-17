@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Bash(for file in summaries/*.md)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(sed:*)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []

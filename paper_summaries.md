@@ -57,7 +57,8 @@ Here is a comprehensive list of the 50 papers covered in the course and its exte
 * **21. TruthfulQA: Measuring How Models Mimic Human Falsehoods** (Lin et al., 2021)
     * **Main Idea:** Introduced a benchmark designed to test an LLM's **truthfulness**, measuring its tendency to repeat common misconceptions found in its training data versus providing factually accurate answers.
 * **22. Measuring Faithfulness in Chain-of-Thought Reasoning** (Lanham et al., 2023)
-    * **Main Idea:** Investigated whether the step-by-step reasoning an LLM outputs actually reflects its true computational process, finding that the reasoning can often be a post-hoc rationalization rather than a faithful explanation.
+    * **Main Idea:** Investigated whether the step-by-step reasoning an LLM outputs actually reflects its true computational process, finding that the reasoning can often be a post-hoc rationalization rather than a faithful explanation. The paper formalises measuring 
+    faithfulness in several settings.
 
 ---
 
@@ -102,11 +103,11 @@ Here is a comprehensive list of the 50 papers covered in the course and its exte
 
 * **39. Universal and Transferable Adversarial Attacks on Aligned LLMs** (Zou et al., 2023)
     * **Main Idea:** Demonstrated that a single, optimized string of characters can act as a universal **"jailbreak"** suffix, causing multiple different aligned LLMs to generate harmful or prohibited content when appended to a prompt.
-* **40. Breaking Down the Defenses: A Comparative Survey of Attacks on Large Language Models** (2024)
+* **40. Breaking Down the Defenses: A Comparative Survey of Attacks on Large Language Models** (Chowdhury et al., 2024)
     * **Main Idea:** Provides a comprehensive, comparative **survey** of attack surfaces for LLMs — including data poisoning and backdoors, prompt injection, jailbreaks/evasion, retrieval attacks, and inference-time exploits — and organizes findings into a consistent taxonomy to compare methods and defenses across papers.
 * **41. PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation** (Zou et al., 2024)
     * **Main Idea:** Introduced the first **knowledge corruption attack** on RAG systems, showing that injecting as few as five malicious texts into a knowledge database of millions can achieve a 90% attack success rate, inducing LLMs to generate attacker-chosen answers.
-* **42. JailbreakZoo: Survey, Landscapes, and Horizons in Jailbreaking LLMs** (Chao et al., 2024)
+* **42. JailbreakZoo: Survey, Landscapes, and Horizons in Jailbreaking LLMs** (Jin et al., 2024)
     * **Main Idea:** Provided a comprehensive **survey** categorizing jailbreak attacks into seven distinct types and reviewing defense mechanisms, creating a structured framework for understanding vulnerabilities in both LLMs and vision-language models.
 * **43. Red Teaming Language Models to Reduce Harms** (Perez et al., 2022)
     * **Main Idea:** Formalized the process of **"red teaming"** for LLMs, where humans (or other AIs) adversarially test models to proactively find safety flaws and vulnerabilities before they are exploited in the real world.

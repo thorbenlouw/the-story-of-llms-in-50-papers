@@ -611,30 +611,35 @@ Queued Summary Tasks (from downloads, unprocessed)
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/Breaking_Down_the_Defenses_Attacks_LLMs_Survey_2024.pdf
   - Out: summaries/breaking-down-the-defenses-attacks-llms-2024.md
-- [ ] PoisonedRAG: Knowledge Corruption Attacks to RAG (Zou, 2024) [REPLACEMENT for Mouton 2023]
+- [x] PoisonedRAG: Knowledge Corruption Attacks to RAG (Zou, 2024) [REPLACEMENT for Mouton 2023]
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/PoisonedRAG_Knowledge_Corruption_Attacks_Zou_2024.pdf
   - Out: summaries/poisonedrag-knowledge-corruption-attacks-zou-2024.md
-- [ ] JailbreakZoo: Survey of Jailbreaking LLMs (Chao, 2024) [REPLACEMENT for LLM Attack Zoo]
+  - Notes: work/notes/poisonedrag-knowledge-corruption-attacks-zou-2024.md
+- [x] JailbreakZoo: Survey of Jailbreaking LLMs (Chao, 2024) [REPLACEMENT for LLM Attack Zoo]
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/JailbreakZoo_Survey_Jailbreaking_LLMs_Chao_2024.pdf
   - Out: summaries/jailbreakzoo-survey-jailbreaking-llms-chao-2024.md
-- [ ] Red Teaming to Reduce Harms (Perez, 2022)
+  - Notes: work/notes/jailbreakzoo-survey-jailbreaking-llms-chao-2024.md
+ - [x] Red Teaming to Reduce Harms (Perez, 2022)
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/Red_Teaming_Reduce_Harms_Perez_2022.pdf
   - Out: summaries/red-teaming-reduce-harms-perez-2022.md
+  - Notes: work/notes/red-teaming-reduce-harms-perez-2022.md
 - [x] Watermark for Large Language Models (Kirchenbauer, 2023)
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/Watermark_Large_Language_Models_Kirchenbauer_2023.pdf
   - Out: summaries/watermark-large-language-models-kirchenbauer-2023.md
-- [ ] Certified Robustness to Adversarial Word Substitutions (Jia, 2019) [REPLACEMENT for Wang 2023]
+ - [x] Certified Robustness to Adversarial Word Substitutions (Jia, 2019) [REPLACEMENT for Wang 2023]
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/Certified_Robustness_Word_Substitutions_Jia_2019.pdf
   - Out: summaries/certified-robustness-word-substitutions-jia-2019.md
-- [ ] Poisoning During Instruction Tuning (Qi, 2023)
+  - Notes: work/notes/certified-robustness-word-substitutions-jia-2019.md
+ - [x] Poisoning During Instruction Tuning (Qi, 2023)
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/Poisoning_Instruction_Tuning_Qi_2023.pdf
   - Out: summaries/poisoning-instruction-tuning-qi-2023.md
+  - Notes: work/notes/poisoning-instruction-tuning-qi-2023.md
 - [ ] Dangers of Stochastic Parrots (Bender, 2021)
   - Run: repeat-prompt.md → Prompt.md
   - PDF: llm_papers_syllabus/Dangers_of_Stochastic_Parrots_Bias_Bender_2021.pdf
