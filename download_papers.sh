@@ -92,30 +92,62 @@ download_paper() {
         url="$source_id"
     else
         # Assume standard arXiv ID format and construct the PDF link
-        url="https://arxiv.org/pdf/${source_id}.pdf"
+        url="https://arxiv.org/pdf/${source_id}"
     fi
 
     # 3. Download the file
     echo "-> Downloading ${full_name}..."
-    # Use curl to download the file. -s silent, -L follow redirects, -o output file
-    curl -s -L "$url" -o "$filename"
+    echo "   URL: $url"
+    # Use curl to download the file. -s silent, -L follow redirects, -o output file, -w for HTTP status
+    # -A sets User-Agent to Chrome on Windows
+    http_code=$(curl -s -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" -w "%{http_code}" "$url" -o "$filename")
+    curl_exit_code=$?
 
-    if [ $? -eq 0 ]; then
-        echo "   [SUCCESS] Saved to: $filename"
-    else
-        echo "   [ERROR] Failed to download from $url"
+    # Check if curl itself failed
+    if [ $curl_exit_code -ne 0 ]; then
+        echo "   [ERROR] Failed to download from $url (curl exit code: $curl_exit_code)"
+        rm -f "$filename"  # Clean up any partial download
+        return 1
     fi
+
+    # Check HTTP response code (2xx is success)
+    if [ "$http_code" -lt 200 ] || [ "$http_code" -ge 300 ]; then
+        echo "   [ERROR] Failed to download from $url (HTTP status: $http_code)"
+        rm -f "$filename"  # Clean up any partial download
+        return 1
+    fi
+
+    # 4. Validate that the downloaded file is actually a PDF
+    if ! pdftotext "$filename" - >/dev/null 2>&1; then
+        echo "   [ERROR] Downloaded file is not a valid PDF: $filename"
+        rm -f "$filename"  # Clean up invalid file
+        return 1
+    fi
+
+    echo "   [SUCCESS] Saved to: $filename"
+    return 0
 }
 
 echo "Starting download of ${#PAPER_LIST[@]} LLM research papers to /$DOWNLOAD_DIR..."
 echo "--------------------------------------------------------"
 
+# Track failures
+failed=0
+
 for item in "${PAPER_LIST[@]}"; do
     # Split the item by the pipe delimiter
     IFS='|' read -r title id year <<< "$item"
-    download_paper "$title" "$id" "$year"
+    if ! download_paper "$title" "$id" "$year"; then
+        failed=1
+    fi
 done
 
 echo "--------------------------------------------------------"
-echo "Download process complete."
-echo "To view the papers, navigate to the /$DOWNLOAD_DIR directory."
+
+if [ $failed -eq 1 ]; then
+    echo "Download process FAILED. One or more papers could not be downloaded or were not valid PDFs."
+    exit 1
+else
+    echo "Download process complete."
+    echo "To view the papers, navigate to the /$DOWNLOAD_DIR directory."
+fi
