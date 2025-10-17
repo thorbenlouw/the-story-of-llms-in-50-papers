@@ -82,7 +82,14 @@ download_paper() {
 
     # 1. Check if the file already exists (unless FORCE=1)
     if [ -f "$filename" ] && [ "${FORCE:-0}" != "1" ]; then
-        echo "-> [SKIP] File already exists: $filename (set FORCE=1 to re-download)"
+        echo "-> [SKIP] File already exists: $filename"
+        # Still validate that it's a valid PDF
+        if ! pdftotext "$filename" - >/dev/null 2>&1; then
+            echo "   [ERROR] Existing file is not a valid PDF: $filename"
+            echo "   (set FORCE=1 to re-download)"
+            return 1
+        fi
+        echo "   [VALIDATED] File is a valid PDF"
         return 0
     fi
 
