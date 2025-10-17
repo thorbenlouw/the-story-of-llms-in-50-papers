@@ -6,6 +6,9 @@ Attention Is All You Need — Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob
 Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin (2017,
 Google Brain/Google Research).
 
+
+[Paper](llm_papers_syllabus/Attention_Is_All_You_Need_Vaswani_2017.pdf)
+
 This is the "paper that launched thousand models" and introduced an architecture called the Transformer, which was a breakthrough moment for allowing our language models to scale. 
 
 ## Before the Breakthrough
@@ -108,7 +111,6 @@ unified text‑to‑text framing. We’ll also explore the trade‑offs and
 optimisations that followed—like faster attention kernels and sparse expert
 routes—that made these systems practical at frontier scale.
 
-[Paper](llm_papers_syllabus/Attention_Is_All_You_Need_Vaswani_2017.pdf)
 
 ## See Also
-- Next: [Recurrent Neural Network Regularization](02-rnn-regularization-zaremba-2014.md)
+- Next: [Recurrent Neural Network Regularisation](02-rnn-regularization-zaremba-2014.md)

@@ -73,4 +73,4 @@ optimise a policy—started here.
 [Paper](llm_papers_syllabus/Deep_RL_Human_Preferences_Christiano_2017.pdf)
 ## See Also
 - Prev: [InstructGPT (RLHF)](17-instructgpt-training-instructions-ouyang-2022.md)
-- Next: [DPO: Direct Preference Optimization](19-dpo-direct-preference-optimization-rafailov-2023.md)
+- Next: [DPO: Direct Preference Optimisation](19-dpo-direct-preference-optimization-rafailov-2023.md)

@@ -1,12 +1,12 @@
 # Keeping the Memory, Taming the Overfitting: RNNs’ Last Big Push
 
 ## The Paper
-## See Also
-- Prev: [Attention Is All You Need](01-attention-is-all-you-need-vaswani-2017.md)
-- Next: [Improving Language Understanding by Generative Pre-Training (GPT‑1)](03-improving-language-understanding-gpt1-radford-2018.md)
 
 Recurrent Neural Network Regularization — Wojciech Zaremba, Ilya Sutskever,
 Oriol Vinyals (2014).
+
+[Paper](llm_papers_syllabus/RNN_Regularization_Zaremba_2014.pdf)
+
 
 ## Before Transformers: Life on the Assembly Line
 
@@ -105,4 +105,6 @@ So read this paper as both a success and a signpost. It shows how far we could
 push RNNs—and why, to go further, we needed a model that could look everywhere
 at once without waiting its turn.
 
-[Paper](llm_papers_syllabus/RNN_Regularization_Zaremba_2014.pdf)
+## See Also
+- Prev: [Attention Is All You Need](01-attention-is-all-you-need-vaswani-2017.md)
+- Next: [Improving Language Understanding by Generative Pre-Training (GPT‑1)](03-improving-language-understanding-gpt1-radford-2018.md)

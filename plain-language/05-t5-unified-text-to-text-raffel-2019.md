@@ -1,10 +1,8 @@
 # One Model To Solve Them All
 
 Paper: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer (Raffel et al., 2019/2020), Google Research.  
-## See Also
-- Prev: [BERT: Pre-training of Deep Bidirectional Transformers](04-bert-pretraining-devlin-2018.md)
-- Next: [RoFormer (Rotary Position Embedding)](06-roformer-enhanced-transformer-su-2021.md)
-PDF: [llm_papers_syllabus/T5_Unified_Text_to_Text_Raffel_2019.pdf](../llm_papers_syllabus/T5_Unified_Text_to_Text_Raffel_2019.pdf)
+
+PDF: [llm_papers_syllabus/T5_Unified_Text_to_Text_Raffel_2019.pdf](llm_papers_syllabus/T5_Unified_Text_to_Text_Raffel_2019.pdf)
 
 ## Before T5: The Messy Toolbelt
 
@@ -43,3 +41,7 @@ Within our course narrative, T5 sits in Phase I — the architectural revolution
 Looking ahead, work like FLAN takes T5’s framing and adds instruction‑following, unlocking surprising zero‑shot abilities. Scaling laws and efficiency breakthroughs (like MoE and FlashAttention) make these unified models larger and faster. T5 didn’t always win on specialist tasks without extra tricks — and that limitation motivates those follow‑ups. But the core insight holds: a single, simple interface can carry astonishing range.
 
 If you remember one thing, make it this: getting the interface right — one model, one objective, one way to talk to it — can turn a messy field into a coherent platform and let the rest of the story accelerate.
+
+## See Also
+- Prev: [BERT: Pre-training of Deep Bidirectional Transformers](04-bert-pretraining-devlin-2018.md)
+- Next: [RoFormer (Rotary Position Embedding)](06-roformer-enhanced-transformer-su-2021.md)

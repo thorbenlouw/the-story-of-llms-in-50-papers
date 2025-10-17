@@ -114,5 +114,5 @@ goals down and teach the model to live by them.
 
 [Paper](llm_papers_syllabus/Constitutional_AI_Harmlessness_Bai_2022.pdf)
 ## See Also
-- Prev: [DPO: Direct Preference Optimization](19-dpo-direct-preference-optimization-rafailov-2023.md)
+- Prev: [DPO: Direct Preference Optimisation](19-dpo-direct-preference-optimization-rafailov-2023.md)
 - Next: [TruthfulQA](21-truthfulqa-measuring-falsehoods-lin-2021.md)

@@ -6,9 +6,10 @@ course narrative with accessible analogies and context.
 
 ## Phase I: The Transformer Foundations
 
+- Phase Overview: [The Transformer Foundations](phase-01-the-transformer-foundations.md)
 - [01 — Attention Is All You Need](01-attention-is-all-you-need-vaswani-2017.md) — The Transformer
   architecture and self‑attention unlock parallelism and long‑range context.
-- [02 — Recurrent Neural Network Regularization](02-rnn-regularization-zaremba-2014.md) — RNN
+- [02 — Recurrent Neural Network Regularisation](02-rnn-regularization-zaremba-2014.md) — RNN
   regularisation highlights limits of the pre‑Transformer era.
 - [03 — Improving Language Understanding (GPT‑1)](03-improving-language-understanding-gpt1-radford-2018.md) —
   Pre‑train on next‑token prediction, then fine‑tune for tasks.
@@ -21,6 +22,7 @@ course narrative with accessible analogies and context.
 
 ## Phase II: Scaling and Efficiency
 
+- Phase Overview: [Scaling and Efficiency](phase-02-scaling-and-efficiency.md)
 - [07 — Scaling Laws for Language Models](07-scaling-laws-neural-language-models-kaplan-2020.md) — Bigger
   models predictably improve; plan scaling with power laws.
 - [08 — Training Compute‑Optimal LLMs (Chinchilla)](08-training-compute-optimal-llm-hoffmann-2022.md) — Balance
@@ -36,6 +38,7 @@ course narrative with accessible analogies and context.
 
 ## Phase III: Alignment, Evaluation, and Safety
 
+- Phase Overview: [Alignment, Evaluation, and Safety](phase-03-alignment-evaluation-safety.md)
 - [13 — FLAN: Instruction Tuning](13-flan-finetuned-zero-shot-wei-2021.md) — Teach models to follow
   instructions across tasks; zero‑shot gets useful.
 - [14 — Emergent Abilities of LLMs](14-emergent-abilities-llm-wei-2022.md) — Some skills appear suddenly at
@@ -59,3 +62,21 @@ course narrative with accessible analogies and context.
 
 Tip: Each post ends with a “See Also” section that links to the previous and
 next paper to keep you oriented as you read through the series.
+
+## Phase IV: Agents and the Future
+
+- Phase Overview: [Agents and the Future](phase-04-agents-and-the-future.md)
+- [23 — Chain‑of‑Thought Prompting](23-chain-of-thought-reasoning-wei-2022.md) — “Show your working” to unlock
+  multi‑step reasoning on maths, logic, and symbolic tasks.
+- [24 — ReAct: Reasoning + Acting](24-react-reasoning-and-acting-yao-2022.md) — Interleave thoughts, tool calls,
+  and observations to ground answers.
+- [25 — Toolformer: Self‑Taught Tool Use](25-toolformer-llms-use-tools-schick-2023.md) — Learn when/how to call
+  tools via self‑annotation filtered by likelihood.
+- [26 — Gorilla: API‑Accurate Generation](26-gorilla-llm-connected-apis-patil-2023.md) — Fine‑tune on schemas and
+  examples for reliable, executable API calls.
+- [27 — Flamingo: Multimodal Few‑Shot](27-flamingo-visual-language-model-alayrac-2022.md) — Bridge vision into LLMs
+  with connectors; prompt across images + text.
+- [28 — LLaVA: Visual Instruction Tuning](28-llava-visual-instruction-tuning-liu-2023.md) — Open recipe for
+  multimodal chat via a lightweight visual adapter.
+- [29 — Kosmos‑2: Grounded Multimodal](29-kosmos-2-grounding-multimodal-peng-2023.md) — From “see and tell” to
+  “see and point” with spatial grounding tokens.

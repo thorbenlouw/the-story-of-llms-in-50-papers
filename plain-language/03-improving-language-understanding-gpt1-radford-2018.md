@@ -1,12 +1,12 @@
 # When Pre-Training Met Purpose: How GPT-1 Changed The Game
 
 ## The Paper
-## See Also
-- Prev: [Recurrent Neural Network Regularization](02-rnn-regularization-zaremba-2014.md)
-- Next: [BERT: Pre-training of Deep Bidirectional Transformers](04-bert-pretraining-devlin-2018.md)
 
 Improving Language Understanding by Generative Pre-Training — Alec Radford,
 Karthik Narasimhan, Tim Salimans, Ilya Sutskever (2018, OpenAI).
+
+[Paper](llm_papers_syllabus/Improving_Language_Understanding_GPT1_Radford_2018.pdf)
+
 
 ## From Hand-Crafted Labels to Broad Reading
 
@@ -118,4 +118,6 @@ alignment techniques that teach models to follow instructions safely. The
 through‑line is clear: GPT‑1 made general language understanding a first‑class
 pre‑training outcome, not a by‑product.
 
-[Paper](llm_papers_syllabus/Improving_Language_Understanding_GPT1_Radford_2018.pdf)
+## See Also
+- Prev: [Recurrent Neural Network Regularisation](02-rnn-regularization-zaremba-2014.md)
+- Next: [BERT: Pre-training of Deep Bidirectional Transformers](04-bert-pretraining-devlin-2018.md)

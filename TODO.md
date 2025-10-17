@@ -637,3 +637,157 @@ Tasks
 - [x] 10. Save final to summaries/constitutional-ai-harmlessness-bai-2022.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
 - [x] 12. Optional: added Figure Insights in main text (Figures 1-5, 7 referenced throughout summary with page numbers).
+
+Active Task Instance 023: Week 10 — Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Wei et al., 2022)
+Context
+- Syllabus entry: Week 10 — Deployment, Agents, and The Future (Reasoning & Tool Use)
+- Key Topics & Labs: Chain-of-Thought prompting for reasoning; agentic patterns that interleave thinking and acting; evaluation of reasoning quality; foundations for ReAct/tool use.
+- PDF path: llm_papers_syllabus/Chain_of_Thought_Reasoning_Wei_2022.pdf
+- Output path: summaries/chain-of-thought-reasoning-wei-2022.md
+- Notes path: work/notes/chain-of-thought-reasoning-wei-2022.md (optional — skipped)
+
+Tasks
+- [x] 1. Identify next paper to process (Week 10, Paper 1): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Chain_of_Thought_Reasoning_Wei_2022.pdf
+- [x] 3. Prepare context from course materials: extract Phase IV focus on reasoning and agents.
+- [x] 4. Create notes file (optional).
+- [x] 5. Skim and outline (10–12 bullets) inline during drafting.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Deployment, Agents, and The Future" and reasoning foundations for tool use.
+- [x] 9. Claims and consistency check against the PDF structure; include section hints for core claims.
+- [x] 10. Save final to summaries/chain-of-thought-reasoning-wei-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" if helpful.
+
+Active Task Instance 024: Week 10 — ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al., 2022)
+Context
+- Syllabus entry: Week 10 — Deployment, Agents, and The Future (Reasoning & Tool Use)
+- Key Topics & Labs: Agentic patterns interleaving reasoning and acting; safe tool interfaces; evaluating tool-augmented reasoning.
+- PDF path: llm_papers_syllabus/ReAct_Reasoning_and_Acting_Yao_2022.pdf
+- Output path: summaries/react-reasoning-and-acting-yao-2022.md
+- Notes path: work/notes/react-reasoning-and-acting-yao-2022.md (optional — skipped)
+
+Tasks
+- [x] 1. Identify next paper to process (Week 10, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/ReAct_Reasoning_and_Acting_Yao_2022.pdf
+- [x] 3. Prepare context from course materials: Phase IV focus (agents & tools).
+- [x] 4. Create notes file (optional).
+- [x] 5. Skim and outline (10–12 bullets) inline during drafting.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Deployment, Agents, and The Future" and agentic tool use.
+- [x] 9. Claims and consistency check against the PDF structure; include section hints for core claims.
+- [x] 10. Save final to summaries/react-reasoning-and-acting-yao-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" if helpful.
+
+Active Task Instance 025: Week 10 — Toolformer: Language Models Can Teach Themselves to Use Tools (Schick et al., 2023)
+Context
+- Syllabus entry: Week 10 — Deployment, Agents, and The Future (Reasoning & Tool Use)
+- Key Topics & Labs: Learning tool use; API schema design; likelihood-based filtering; bridging training-time tool literacy and inference-time agents.
+- PDF path: llm_papers_syllabus/Toolformer_LLMs_Use_Tools_Schick_2023.pdf
+- Output path: summaries/toolformer-llms-use-tools-schick-2023.md
+- Notes path: work/notes/toolformer-llms-use-tools-schick-2023.md (optional — skipped)
+
+Tasks
+- [x] 1. Identify next paper to process (Week 10, Added): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Toolformer_LLMs_Use_Tools_Schick_2023.pdf
+- [x] 3. Prepare context from course materials: Phase IV tool learning.
+- [x] 4. Create notes file (optional).
+- [x] 5. Skim and outline (10–12 bullets) inline during drafting.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Deployment, Agents, and The Future" and training vs. inference interplay.
+- [x] 9. Claims and consistency check against the PDF structure; include section hints for core claims.
+- [x] 10. Save final to summaries/toolformer-llms-use-tools-schick-2023.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" if helpful.
+
+Active Task Instance 026: Week 10 — Gorilla: Large Language Model Connected with Massive APIs (Patil et al., 2023)
+Context
+- Syllabus entry: Week 10 — Deployment, Agents, and The Future (Reasoning & Tool Use)
+- Key Topics & Labs: Schema-grounded tool use; reliable text-to-API generation; evaluation of endpoint/argument correctness.
+- PDF path: llm_papers_syllabus/Gorilla_LLM_Connected_APIs_Patil_2023.pdf
+- Output path: summaries/gorilla-llm-connected-apis-patil-2023.md
+- Notes path: work/notes/gorilla-llm-connected-apis-patil-2023.md (optional — skipped)
+
+Tasks
+- [x] 1. Identify next paper to process (Week 10, Added): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Gorilla_LLM_Connected_APIs_Patil_2023.pdf
+- [x] 3. Prepare context from course materials: Phase IV tool reliability.
+- [x] 4. Create notes file (optional).
+- [x] 5. Skim and outline (10–12 bullets) inline during drafting.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Deployment, Agents, and The Future" with emphasis on API correctness.
+- [x] 9. Claims and consistency check against the PDF structure; include section hints for core claims.
+- [x] 10. Save final to summaries/gorilla-llm-connected-apis-patil-2023.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" if helpful.
+
+Active Task Instance 027: Week 10 — Flamingo: a Visual Language Model for Few-Shot Learning (Alayrac et al., 2022)
+Context
+- Syllabus entry: Week 10 — Deployment, Agents, and The Future (Multimodality)
+- Key Topics & Labs: Multimodal prompting; cross-attention adapters; evaluation of few-shot multimodal generalization.
+- PDF path: llm_papers_syllabus/Flamingo_Visual_Language_Model_Alayrac_2022.pdf
+- Output path: summaries/flamingo-visual-language-model-alayrac-2022.md
+- Notes path: work/notes/flamingo-visual-language-model-alayrac-2022.md (optional — skipped)
+
+Tasks
+- [x] 1. Identify next paper to process (Week 10, Added): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Flamingo_Visual_Language_Model_Alayrac_2022.pdf
+- [x] 3. Prepare context from course materials: Phase IV multimodality.
+- [x] 4. Create notes file (optional).
+- [x] 5. Skim and outline (10–12 bullets) inline during drafting.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Deployment, Agents, and The Future" with emphasis on multimodal prompting.
+- [x] 9. Claims and consistency check against the PDF structure; include section hints for core claims.
+- [x] 10. Save final to summaries/flamingo-visual-language-model-alayrac-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" if helpful.
+
+Active Task Instance 028: Week 10 — Visual Instruction Tuning (LLaVA) (Liu et al., 2023)
+Context
+- Syllabus entry: Week 10 — Deployment, Agents, and The Future (Multimodality)
+- Key Topics & Labs: Multimodal instruction-tuning; adapters; evaluation of multimodal chat.
+- PDF path: llm_papers_syllabus/LLaVA_Visual_Instruction_Tuning_Liu_2023.pdf
+- Output path: summaries/llava-visual-instruction-tuning-liu-2023.md
+- Notes path: work/notes/llava-visual-instruction-tuning-liu-2023.md (optional — skipped)
+
+Tasks
+- [x] 1. Identify next paper to process (Week 10, Added): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/LLaVA_Visual_Instruction_Tuning_Liu_2023.pdf
+- [x] 3. Prepare context from course materials: Phase IV multimodality.
+- [x] 4. Create notes file (optional).
+- [x] 5. Skim and outline (10–12 bullets) inline during drafting.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Deployment, Agents, and The Future" with focus on open multimodal assistants.
+- [x] 9. Claims and consistency check against the PDF structure; include section hints for core claims.
+- [x] 10. Save final to summaries/llava-visual-instruction-tuning-liu-2023.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" if helpful.
+
+Active Task Instance 029: Week 10 — Kosmos-2: Grounding Multimodal Large Language Models to the World (Peng et al., 2023)
+Context
+- Syllabus entry: Week 10 — Deployment, Agents, and The Future (Multimodality)
+- Key Topics & Labs: Spatial grounding; structured tokens for localization; grounded dialog evaluation.
+- PDF path: llm_papers_syllabus/Kosmos_2_Grounding_Multimodal_Peng_2023.pdf
+- Output path: summaries/kosmos-2-grounding-multimodal-peng-2023.md
+- Notes path: work/notes/kosmos-2-grounding-multimodal-peng-2023.md (optional — skipped)
+
+Tasks
+- [x] 1. Identify next paper to process (Week 10, Added): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Kosmos_2_Grounding_Multimodal_Peng_2023.pdf
+- [x] 3. Prepare context from course materials: Phase IV multimodality/grounding.
+- [x] 4. Create notes file (optional).
+- [x] 5. Skim and outline (10–12 bullets) inline during drafting.
+- [x]  6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Deployment, Agents, and The Future" with focus on spatial grounding.
+- [x] 9. Claims and consistency check against the PDF structure; include section hints for core claims.
+- [x] 10. Save final to summaries/kosmos-2-grounding-multimodal-peng-2023.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" if helpful.

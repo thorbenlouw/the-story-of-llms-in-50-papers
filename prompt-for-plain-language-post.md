@@ -59,6 +59,13 @@ Conclusion: A Glimpse Ahead (approx. 50 words):
 
 Briefly wrap up and hint at what's coming next in the course. You can mention a limitation of the paper that a future paper will solve.
 
+Lastly add a section that links to the previous and next papers (if relevant), like
+```
+## See Also
+- Prev: [BERT: Pre-training of Deep Bidirectional Transformers](04-bert-pretraining-devlin-2018.md)
+- Next: [RoFormer (Rotary Position Embedding)](06-roformer-enhanced-transformer-su-2021.md)
+```
+
 Style and Formatting Rules
 Word Count: Strictly adhere to approximately 800 words.
 
@@ -112,3 +119,9 @@ Reasoning (Chain-of-Thought): Prompting models to "think step-by-step."
 Tool Use (ReAct, RAG): Allowing models to use external tools like search engines and databases to overcome their limitations.
 
 Beyond the Transformer: Exploring the next generation of more efficient architectures like Mamba, RetNet, and Hyena.
+
+
+----
+OUTPUT
+Write your output to the plain-language directory, with a filename like XX-NameOfPaper.md. For XX use a number that matches the order of the paper in the course syllabus, which you can infer from /@paper_summaries.md
+
