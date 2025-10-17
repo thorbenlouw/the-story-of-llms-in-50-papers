@@ -508,6 +508,27 @@ Tasks
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
 - [x] 12. Optional: add "Figure Insights" (aggregate category plots; prompt sensitivity ablations).
 
+Active Task Instance 021: Week 9 — TruthfulQA: Measuring How Models Mimic Human Falsehoods (Lin et al., 2021)
+Context
+- Syllabus entry: Week 9 — Reward-Free Alignment & Safety (Phase III)
+- Key Topics & Labs: Direct Preference Optimization (DPO) vs. RLHF. The mathematical derivation of DPO as an unrolled objective. Safety, toxicity mitigation, and transparency. Factuality & CoT-Faithfulness: Measuring truthfulness and reasoning faithfulness. Lab: Fine-tuning an aligned model using DPO.
+- PDF path: llm_papers_syllabus/TruthfulQA_Measuring_Falsehoods_Lin_2021.pdf
+- Output path: summaries/truthfulqa-measuring-falsehoods-lin-2021.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 9, Additional Reading 3): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/TruthfulQA_Measuring_Falsehoods_Lin_2021.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 9.
+- [x] 4. Create notes file (optional - skipped for efficient workflow).
+- [x] 5. Skim and outline inline during drafting from PDF pages 1-39.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Reward-Free Alignment & Safety" and factuality measurement explicitly; connect to DPO lab and Week 9 themes.
+- [x] 9. Claims and consistency check against the PDF text; verified key claims from pages 1-8 with section/figure references (benchmark size, human vs. model performance, inverse scaling, control experiments, GPT-judge accuracy).
+- [x] 10. Save final to summaries/truthfulqa-measuring-falsehoods-lin-2021.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: referenced key figures (Figures 1-4, 10-11, Tables 1-2) throughout summary with page numbers.
+
 Active Task Instance 017: Week 8 — Training language models to follow instructions with human feedback (Ouyang et al., 2022)
 Context
 - Syllabus entry: Week 8 — Reinforcement Learning from Human Feedback (RLHF)
@@ -529,3 +550,69 @@ Tasks
 - [x] 10. Save final to summaries/instructgpt-training-instructions-ouyang-2022.md
 - [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
 - [x] 12. Optional: add "Figure Insights" (pipeline diagram illustrating SFT → RM → PPO with KL anchor).
+
+Active Task Instance 018: Week 8 — Deep Reinforcement Learning from Human Preferences (Christiano et al., 2017)
+Context
+- Syllabus entry: Week 8 — Reinforcement Learning from Human Feedback (RLHF)
+- Key Topics & Labs: The full RLHF pipeline: SFT, Reward Model (RM), PPO optimization. KL divergence penalty. The role of human preference data in alignment.
+- PDF path: [llm_papers_syllabus/Deep_RL_Human_Preferences_Christiano_2017.pdf](llm_papers_syllabus/Deep_RL_Human_Preferences_Christiano_2017.pdf)
+- Output path: summaries/deep-rl-human-preferences-christiano-2017.md
+- Notes path: work/notes/deep-rl-human-preferences-christiano-2017.md (optional — skipped)
+
+Tasks
+- [x] 1. Identify next paper to process (Week 8, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: [llm_papers_syllabus/Deep_RL_Human_Preferences_Christiano_2017.pdf](llm_papers_syllabus/Deep_RL_Human_Preferences_Christiano_2017.pdf)
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 8.
+- [x] 4. Create notes file (optional).
+- [x] 5. Skim and outline (10–12 bullets) in the notes file or inline during drafting.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "RLHF" and the Reward Model component explicitly; contrast with KL-regularized policy optimization used later in LLMs.
+- [x] 9. Claims and consistency check against the PDF structure; include section hints for core claims.
+- [x] 10. Save final to summaries/deep-rl-human-preferences-christiano-2017.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" if helpful.
+
+Active Task Instance 019: Week 9 — Direct Preference Optimization: Your Language Model is Secretly a Reward Model (Rafailov et al., 2023)
+Context
+- Syllabus entry: Week 9 — Reward-Free Alignment & Safety (Phase III)
+- Key Topics & Labs: Direct Preference Optimization (DPO) vs. RLHF. The mathematical derivation of DPO as an unrolled objective. Safety, toxicity mitigation, and transparency.
+- PDF path: llm_papers_syllabus/DPO_Direct_Preference_Optimization_Rafailov_2023.pdf
+- Output path: summaries/dpo-direct-preference-optimization-rafailov-2023.md
+- Notes path: work/notes/dpo-direct-preference-optimization-rafailov-2023.md
+
+Tasks
+- [x] 1. Identify next paper to process (Week 9, Paper 1): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/DPO_Direct_Preference_Optimization_Rafailov_2023.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 9.
+- [x] 4. Create notes file: work/notes/dpo-direct-preference-optimization-rafailov-2023.md
+- [x] 5. Skim and outline (10–12 bullets) in the notes file.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Reward-Free Alignment & Safety" and DPO vs. RLHF explicitly.
+- [x] 9. Claims and consistency check against the PDF text; refine as needed (verified key claims from pages 1-2, 4-5, 7-10).
+- [x] 10. Save final to summaries/dpo-direct-preference-optimization-rafailov-2023.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: add "Figure Insights" (Figures 1, 2, 3 described in summary).
+
+Active Task Instance 020: Week 9 — Constitutional AI: Harmlessness from AI Feedback (Bai et al., 2022)
+Context
+- Syllabus entry: Week 9 — Reward-Free Alignment & Safety (Phase III)
+- Key Topics & Labs: Direct Preference Optimization (DPO) vs. RLHF. The mathematical derivation of DPO as an unrolled objective. Safety, toxicity mitigation, and transparency. Factuality & CoT-Faithfulness: Measuring truthfulness and reasoning faithfulness. Lab: Fine-tuning an aligned model using DPO.
+- PDF path: llm_papers_syllabus/Constitutional_AI_Harmlessness_Bai_2022.pdf
+- Output path: summaries/constitutional-ai-harmlessness-bai-2022.md
+- Notes: Duplicate PDF (Constitutional_AI_Harmlessness_CAI_Bai_2022.pdf) exists but standardized on Constitutional_AI_Harmlessness_Bai_2022.pdf
+
+Tasks
+- [x] 1. Identify next paper to process (Week 9, Paper 2): record metadata and course context.
+- [x] 2. Locate PDF and verify accessibility: llm_papers_syllabus/Constitutional_AI_Harmlessness_Bai_2022.pdf
+- [x] 3. Prepare context from course-syllabus.md: extract Key Topics for Week 9.
+- [x] 4. Create notes file (optional - skipped).
+- [x] 5. Skim and outline (10–12 bullets) inline during drafting.
+- [x] 6. Generate summary draft using Prompt.md; include TL;DR and required sections.
+- [x] 7. Add 5 discussion questions and 8–12 term glossary.
+- [x] 8. Tie to "Reward-Free Alignment & Safety" and comparison with DPO explicitly; connect to safety, transparency, and CoT-faithfulness themes.
+- [x] 9. Claims and consistency check against the PDF text; verified key claims from pages 1-5, 8-16 with section references.
+- [x] 10. Save final to summaries/constitutional-ai-harmlessness-bai-2022.md
+- [x] 11. Update this TODO (mark steps [x]) and note any follow-ups.
+- [x] 12. Optional: added Figure Insights in main text (Figures 1-5, 7 referenced throughout summary with page numbers).
